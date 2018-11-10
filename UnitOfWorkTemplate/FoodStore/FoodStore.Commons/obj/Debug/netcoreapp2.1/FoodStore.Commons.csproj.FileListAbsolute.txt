@@ -1,0 +1,9 @@
+D:\FC\FoodStore\FoodStore.Commons\bin\Debug\netcoreapp2.1\FoodStore.Commons.deps.json
+D:\FC\FoodStore\FoodStore.Commons\bin\Debug\netcoreapp2.1\FoodStore.Commons.dll
+D:\FC\FoodStore\FoodStore.Commons\bin\Debug\netcoreapp2.1\FoodStore.Commons.pdb
+D:\FC\FoodStore\FoodStore.Commons\obj\Debug\netcoreapp2.1\FoodStore.Commons.csprojAssemblyReference.cache
+D:\FC\FoodStore\FoodStore.Commons\obj\Debug\netcoreapp2.1\FoodStore.Commons.csproj.CoreCompileInputs.cache
+D:\FC\FoodStore\FoodStore.Commons\obj\Debug\netcoreapp2.1\FoodStore.Commons.AssemblyInfoInputs.cache
+D:\FC\FoodStore\FoodStore.Commons\obj\Debug\netcoreapp2.1\FoodStore.Commons.AssemblyInfo.cs
+D:\FC\FoodStore\FoodStore.Commons\obj\Debug\netcoreapp2.1\FoodStore.Commons.dll
+D:\FC\FoodStore\FoodStore.Commons\obj\Debug\netcoreapp2.1\FoodStore.Commons.pdb

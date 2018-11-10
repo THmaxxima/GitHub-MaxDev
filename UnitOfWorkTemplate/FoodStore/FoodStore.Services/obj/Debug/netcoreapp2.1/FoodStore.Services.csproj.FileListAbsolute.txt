@@ -1,0 +1,16 @@
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Models.dll
+D:\FC\FoodStore\FoodStore.Services\obj\Debug\netcoreapp2.1\FoodStore.Services.csprojAssemblyReference.cache
+D:\FC\FoodStore\FoodStore.Services\obj\Debug\netcoreapp2.1\FoodStore.Services.csproj.CoreCompileInputs.cache
+D:\FC\FoodStore\FoodStore.Services\obj\Debug\netcoreapp2.1\FoodStore.Services.AssemblyInfoInputs.cache
+D:\FC\FoodStore\FoodStore.Services\obj\Debug\netcoreapp2.1\FoodStore.Services.AssemblyInfo.cs
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Services.deps.json
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Services.runtimeconfig.json
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Services.runtimeconfig.dev.json
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Services.dll
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Services.pdb
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Models.pdb
+D:\FC\FoodStore\FoodStore.Services\obj\Debug\netcoreapp2.1\FoodStore.Services.csproj.CopyComplete
+D:\FC\FoodStore\FoodStore.Services\obj\Debug\netcoreapp2.1\FoodStore.Services.dll
+D:\FC\FoodStore\FoodStore.Services\obj\Debug\netcoreapp2.1\FoodStore.Services.pdb
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Commons.dll
+D:\FC\FoodStore\FoodStore.Services\bin\Debug\netcoreapp2.1\FoodStore.Commons.pdb
