@@ -6,7 +6,7 @@ using System.Text;
 
 namespace FoodStore.Services.Core
 {
-    public abstract class ServiceBase<T> : IService<T> where T : class, IEntity
+    public abstract class ServiceBase<T> : IService<T> where T : class
     {
         private readonly AppDb db;
 
@@ -18,15 +18,8 @@ namespace FoodStore.Services.Core
         public virtual IQueryable<T> All => Query(x => true);
         public virtual T Find(params object[] keys) => db.Set<T>().Find(keys);
 
-        public virtual T Add(T item)
-        {
-            item.CreatedBy = "";
-            item.CreatedDate = DateTime.Now;
-            item.UpdatedBy = "";
-            item.UpdatedDate = DateTime.Now;
-            return db.Set<T>().Add(item).Entity;
-        }
-
+        public virtual T Add(T item) => db.Set<T>().Add(item).Entity;
         public virtual T Remove(T item) => db.Set<T>().Remove(item).Entity;
+
     }
 }

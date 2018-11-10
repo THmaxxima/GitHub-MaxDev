@@ -1,9 +1,9 @@
-﻿using FoodStore.Services.Core;
-using System;
+﻿using System;
 
 namespace FoodStore.Models
 {
-    public class Product : IEntity
+    //public class Product : IEntity
+    public class Product
     {
         public int Id { get; set; }
         public string Name { get; set; }

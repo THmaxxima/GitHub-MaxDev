@@ -10,3 +10,12 @@ D:\FC\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.pdb
 D:\FC\FoodStore\FoodStore.Models\bin\Debug\netcoreapp2.1\FoodStore.Commons.dll
 D:\FC\FoodStore\FoodStore.Models\bin\Debug\netcoreapp2.1\FoodStore.Commons.pdb
 D:\FC\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.csproj.CopyComplete
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\bin\Debug\netcoreapp2.1\FoodStore.Models.deps.json
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\bin\Debug\netcoreapp2.1\FoodStore.Models.dll
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\bin\Debug\netcoreapp2.1\FoodStore.Models.pdb
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.csprojAssemblyReference.cache
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.csproj.CoreCompileInputs.cache
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.AssemblyInfoInputs.cache
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.AssemblyInfo.cs
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.dll
+D:\MaxDev\UnitOfWorkTemplate\FoodStore\FoodStore.Models\obj\Debug\netcoreapp2.1\FoodStore.Models.pdb

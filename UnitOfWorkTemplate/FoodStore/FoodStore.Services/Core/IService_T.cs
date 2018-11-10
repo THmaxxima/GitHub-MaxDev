@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FoodStore.Services.Core
 {
-    public interface IService<T> where T: class, IEntity
+    public interface IService<T> where T: class
     {
         IQueryable<T> Query(Func<T, bool> criteia);
         IQueryable<T> All { get; }
