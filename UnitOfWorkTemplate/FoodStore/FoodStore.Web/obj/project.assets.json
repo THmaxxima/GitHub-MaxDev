@@ -6246,7 +6246,7 @@
       ]
     },
     "Microsoft.Extensions.Http/2.1.1": {
-      "sha512": "mDh9zlNwbdvb3BXjJejdcdovI5nsJZ4y0IU84QPFS9OB0q3e8BUVknTKr1Mub1nWQGEt6ZZDkP5vYf0KM7wVRw==",
+      "sha512": "2fKYUplR/pCXZj0JMsCLThbjv2i8ctdUangVcQZvzUfAQRhVb8BHUdpipV5LKlQViSWqEn0vSCeqKFdqbjIsjA==",
       "type": "package",
       "path": "microsoft.extensions.http/2.1.1",
       "files": [
@@ -7069,10 +7069,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -9132,7 +9133,7 @@
       ]
     },
     "System.Memory/4.5.1": {
-      "sha512": "vcG3/MbfpxznMkkkaAblJi7RHOmuP7kawQMhDgLSuA1tRpRQYsFSCTxRSINDUgn2QNn2jWeLxv8er5BXbyACkw==",
+      "sha512": "oonnLQPZAGD21qtNMG4EtVmbYOInk2jV7M+g108B6OHOb67ZOaWnA/K8P5oQ6uK9wxKzB1iEXSChQOi2scKOqA==",
       "type": "package",
       "path": "system.memory/4.5.1",
       "files": [
@@ -9984,7 +9985,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
+      "sha512": "9r+hFzL5qRJfAzR6AuccmYYtxTneKJTr+9aSf+A2G5EZloSG3FsAUZBOJMAAhNnhfP6mwCGpUwzTjaOjv4b5FA==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
@@ -11881,11 +11882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Web\\FoodStore.Web.csproj",
+      "projectUniqueName": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Web\\FoodStore.Web.csproj",
       "projectName": "FoodStore.Web",
-      "projectPath": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Web\\FoodStore.Web.csproj",
+      "projectPath": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Web\\FoodStore.Web.csproj",
       "packagesPath": "C:\\Users\\Maxx-FC\\.nuget\\packages\\",
-      "outputPath": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Web\\obj\\",
+      "outputPath": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11904,11 +11905,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj": {
-              "projectPath": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj"
+            "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj": {
+              "projectPath": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj"
             },
-            "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Services\\FoodStore.Services.csproj": {
-              "projectPath": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Services\\FoodStore.Services.csproj"
+            "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Services\\FoodStore.Services.csproj": {
+              "projectPath": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Services\\FoodStore.Services.csproj"
             }
           }
         }

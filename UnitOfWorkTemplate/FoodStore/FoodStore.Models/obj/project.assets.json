@@ -2036,7 +2036,7 @@
       ]
     },
     "System.Memory/4.5.1": {
-      "sha512": "vcG3/MbfpxznMkkkaAblJi7RHOmuP7kawQMhDgLSuA1tRpRQYsFSCTxRSINDUgn2QNn2jWeLxv8er5BXbyACkw==",
+      "sha512": "oonnLQPZAGD21qtNMG4EtVmbYOInk2jV7M+g108B6OHOb67ZOaWnA/K8P5oQ6uK9wxKzB1iEXSChQOi2scKOqA==",
       "type": "package",
       "path": "system.memory/4.5.1",
       "files": [
@@ -2606,7 +2606,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
+      "sha512": "9r+hFzL5qRJfAzR6AuccmYYtxTneKJTr+9aSf+A2G5EZloSG3FsAUZBOJMAAhNnhfP6mwCGpUwzTjaOjv4b5FA==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
@@ -2923,11 +2923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj",
+      "projectUniqueName": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj",
       "projectName": "FoodStore.Models",
-      "projectPath": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj",
+      "projectPath": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\FoodStore.Models.csproj",
       "packagesPath": "C:\\Users\\Maxx-FC\\.nuget\\packages\\",
-      "outputPath": "D:\\MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\obj\\",
+      "outputPath": "D:\\GitHub-MaxDev\\UnitOfWorkTemplate\\FoodStore\\FoodStore.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
