@@ -552,7 +552,3 @@ D:\FC-Guthub\Reports\Report\Report\obj\Debug\Report.exe
 D:\FC-Guthub\Reports\Report\Report\obj\Debug\Report.xml
 D:\FC-Guthub\Reports\Report\Report\obj\Debug\Report.pdb
 D:\FC-Guthub\Reports\Report\Report\obj\Debug\Report.IVM_MaterialReceive_3996.resources
-D:\GitHub-MaxDev\Reports\Report\Report\bin\Debug\Report.exe.config
-D:\GitHub-MaxDev\Reports\Report\Report\obj\Debug\Report.exe
-D:\GitHub-MaxDev\Reports\Report\Report\obj\Debug\Report.xml
-D:\GitHub-MaxDev\Reports\Report\Report\obj\Debug\Report.pdb

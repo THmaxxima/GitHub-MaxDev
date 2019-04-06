@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.7.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="IVM_MaterialReceive_3996" Landscape="true" Margins="100, 100, 7, 25" PageWidth="1100" PageHeight="850" ScriptLanguage="VisualBasic" Version="16.1" DataMember="proc_IVM_MaterialReceive_3997" DataSource="#Ref-0" Dpi="100">
+  <FormattingRuleSheet>
+    <Item1 Ref="2" Name="FormattingRule1">
+      <Formatting Ref="3" BorderStyle="Inset" StringFormat="Near;Near;0;None;Character;Default" />
+    </Item1>
+  </FormattingRuleSheet>
+  <Bands>
+    <Item1 Ref="4" ControlType="DetailBand" Name="Detail" KeepTogetherWithDetailReports="true" HeightF="20" TextAlignment="TopLeft" Dpi="100" StyleName="DataField" Padding="0,0,0,0,100" Borders="None">
+      <MultiColumn Ref="5" Layout="AcrossThenDown" />
+      <Controls>
+        <Item1 Ref="6" ControlType="XRLine" Name="XrLine3" SizeF="890,2.000002" LocationFloat="0, 17" Dpi="100" Borders="Bottom" BorderDashStyle="DashDot">
+          <StylePriority Ref="7" UseBorders="false" UseBorderDashStyle="false" />
+        </Item1>
+        <Item2 Ref="8" ControlType="XRLabel" Name="XrLabel15" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel15" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleRight" WordWrap="false" SizeF="67.24738,15" LocationFloat="194.9396, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="9" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="10" FormatString="{0:n2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ADT" />
+          </DataBindings>
+          <StylePriority Ref="11" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="12" ControlType="XRLabel" Name="XrLabel16" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel16" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleRight" WordWrap="false" SizeF="67.24738,15" LocationFloat="300.2836, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="13" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="14" FormatString="{0:n2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ASIS" />
+          </DataBindings>
+          <StylePriority Ref="15" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="16" ControlType="XRLabel" Name="XrLabel17" AutoWidth="true" CanShrink="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel17" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleRight" WordWrap="false" SizeF="67.24738,15" LocationFloat="117.844, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="17" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="18" FormatString="{0:n2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.bale" />
+          </DataBindings>
+          <StylePriority Ref="19" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="20" ControlType="XRLabel" Name="XrLabel19" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel19" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleRight" WordWrap="false" SizeF="67.24738,15" LocationFloat="405.6276, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="21" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="22" FormatString="{0:n2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.MP AVG" />
+          </DataBindings>
+          <StylePriority Ref="23" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="24" ControlType="XRLabel" Name="XrLabel20" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel20" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleRight" WordWrap="false" SizeF="67.24738,15" LocationFloat="510.9716, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="25" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="26" FormatString="{0:n2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.OT AVG" />
+          </DataBindings>
+          <StylePriority Ref="27" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="28" ControlType="XRLabel" Name="XrLabel21" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel21" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleRight" WordWrap="false" SizeF="67.24738,15" LocationFloat="603.1511, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="29" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="30" FormatString="{0:n2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.PM AVG" />
+          </DataBindings>
+          <StylePriority Ref="31" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="32" ControlType="XRLabel" Name="XrLabel22" AutoWidth="true" TextTrimming="Word" Text="XrLabel22" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleLeft" WordWrap="false" SizeF="57.3056,15" LocationFloat="692.7054, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="33" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="34" FormatString="{0:#}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.TRUCK No." />
+          </DataBindings>
+          <StylePriority Ref="35" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="36" ControlType="XRLabel" Name="XrLabel24" TextTrimming="Word" Text="XrLabel24" TextAlignment="MiddleLeft" WordWrap="false" SizeF="138.989,15" LocationFloat="756.011, 0" Dpi="100" Font="TH Sarabun New, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <DataBindings>
+            <Item1 Ref="37" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ลาน" />
+          </DataBindings>
+          <StylePriority Ref="38" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="39" ControlType="XRLabel" Name="XrLabel23" NullValueText="0.00" TextTrimming="Word" Text="XrLabel23" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleLeft" WordWrap="false" SizeF="106.3291,15" LocationFloat="0, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, charSet=0" Padding="1,1,1,1,100" Borders="None">
+          <Summary Ref="40" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="41" FormatString="{0:#}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.Weighticket" />
+          </DataBindings>
+          <StylePriority Ref="42" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+      </Controls>
+      <StylePriority Ref="43" UseBorders="false" />
+    </Item1>
+    <Item2 Ref="44" ControlType="GroupHeaderBand" Name="GroupHeaderBand1" GroupUnion="WithFirstDetail" Level="1" PageBreak="BeforeBandExceptFirstEntry" HeightF="28.50002" KeepTogether="true" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 18pt, style=Bold" BackColor="Control">
+      <GroupFields>
+        <Item1 Ref="45" FieldName="ReceiveDate" />
+      </GroupFields>
+      <SortingSummary Ref="46" FieldName="bale" IgnoreNullValues="true" />
+      <Controls>
+        <Item1 Ref="47" ControlType="XRLabel" Name="XrLabel2" TextTrimming="Word" Text="XrLabel2" TextAlignment="MiddleLeft" WordWrap="false" SizeF="95.72829,16.00001" LocationFloat="750.6518, 6.833333" Dpi="100" StyleName="DataField" Font="TH Sarabun New, 18pt, charSet=0" BackColor="LightGray" Padding="2,2,0,0,100" Borders="All" BorderDashStyle="DashDot">
+          <Summary Ref="48" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="49" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ReceiveDate" />
+          </DataBindings>
+          <StylePriority Ref="50" UseFont="false" UseBackColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="51" ControlType="XRLabel" Name="XrLabel1" AutoWidth="true" TextTrimming="Word" Text="Receive Date : " TextAlignment="MiddleLeft" WordWrap="false" SizeF="81,16.00001" LocationFloat="617.5286, 6.833339" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 18pt, charSet=0" BackColor="LightGray" Padding="2,2,0,0,100" Borders="All" BorderDashStyle="DashDot">
+          <StylePriority Ref="52" UseFont="false" UseBackColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item2>
+      </Controls>
+      <StylePriority Ref="53" UseFont="false" UseBackColor="false" />
+    </Item2>
+    <Item3 Ref="54" ControlType="GroupHeaderBand" Name="GroupHeaderBand2" HeightF="34.78788" KeepTogether="true" Dpi="100">
+      <SubBands>
+        <Item1 Ref="55" ControlType="SubBand" Name="SubBand1" HeightF="25.16671" Dpi="100">
+          <Controls>
+            <Item1 Ref="56" ControlType="XRLabel" Name="XrLabel10" TextTrimming="Word" Text="OT AVG" TextAlignment="TopCenter" WordWrap="false" SizeF="75.99995,19" LocationFloat="515.237, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="57" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="58" ControlType="XRLabel" Name="XrLabel14" TextTrimming="Word" Text="ลาน" TextAlignment="TopCenter" SizeF="68.27264,19" LocationFloat="802.2528, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="59" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="60" ControlType="XRLabel" Name="XrLabel13" TextTrimming="Word" Text="Weighticket" TextAlignment="TopCenter" WordWrap="false" SizeF="75.99995,19" LocationFloat="29.47458, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="61" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="62" ControlType="XRLabel" Name="XrLabel12" TextTrimming="Word" Text="TRUCK No " TextAlignment="TopCenter" WordWrap="false" SizeF="81.98767,19" LocationFloat="709.4254, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="63" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="64" ControlType="XRLabel" Name="XrLabel11" TextTrimming="Word" Text="PM AVG" TextAlignment="TopCenter" WordWrap="false" SizeF="75.99995,19" LocationFloat="618.5439, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="65" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="66" ControlType="XRLine" Name="XrLine2" SizeF="895,2" LocationFloat="0.8333333, 23.16671" Dpi="100" BorderDashStyle="DashDot">
+              <StylePriority Ref="67" UseBorderDashStyle="false" />
+            </Item6>
+            <Item7 Ref="68" ControlType="XRLabel" Name="XrLabel9" TextTrimming="Word" Text="MP AVG" TextAlignment="TopCenter" WordWrap="false" SizeF="75.99995,19" LocationFloat="411.93, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="69" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item7>
+            <Item8 Ref="70" ControlType="XRLabel" Name="XrLabel7" TextTrimming="Word" Text="BALE" TextAlignment="TopCenter" WordWrap="false" SizeF="50.55692,19" LocationFloat="127.4523, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="71" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item8>
+            <Item9 Ref="72" ControlType="XRLabel" Name="XrLabel6" TextTrimming="Word" Text="ASIS" TextAlignment="TopCenter" WordWrap="false" SizeF="75.99995,19" LocationFloat="308.6231, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="73" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item9>
+            <Item10 Ref="74" ControlType="XRLabel" Name="XrLabel5" TextTrimming="Word" Text="ADT" TextAlignment="TopCenter" WordWrap="false" SizeF="75.99995,19" LocationFloat="205.3162, 0" Dpi="100" Font="TH Sarabun New, 13.8pt, style=Bold, Italic, Underline, charSet=0" Padding="1,1,1,1,100" Borders="None">
+              <StylePriority Ref="75" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+            </Item10>
+          </Controls>
+        </Item1>
+      </SubBands>
+      <GroupFields>
+        <Item1 Ref="76" FieldName="Material" />
+      </GroupFields>
+      <Controls>
+        <Item1 Ref="77" ControlType="XRLabel" Name="XrLabel4" AutoWidth="true" NullValueText="-" TextTrimming="Word" Text="XrLabel4" TextAlignment="MiddleLeft" WordWrap="false" SizeF="210.1667,16.00001" LocationFloat="115.2531, 4.99998" Dpi="100" StyleName="DataField" Font="TH Sarabun New, 18pt, style=Bold, charSet=222" BackColor="LightGray" Padding="2,2,0,0,100" Borders="All" BorderDashStyle="DashDot">
+          <Summary Ref="78" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="79" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.Material" />
+          </DataBindings>
+          <StylePriority Ref="80" UseFont="false" UseBackColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="81" ControlType="XRLabel" Name="XrLabel3" Text="Material : " TextAlignment="MiddleLeft" WordWrap="false" SizeF="81,16.00001" LocationFloat="5.833231, 4.99998" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 18pt, style=Bold, charSet=0" BackColor="LightGray" Padding="2,2,0,0,100" Borders="All" BorderDashStyle="DashDot">
+          <StylePriority Ref="82" UseFont="false" UseBackColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="83" ControlType="XRLabel" Name="XrLabel8" Text="ID" SizeF="35.44304,19" LocationFloat="5.329157, 0" Dpi="100" Font="Microsoft Sans Serif, 7.8pt, charSet=222" Padding="2,2,0,0,100" Borders="None" Visible="false">
+          <StylePriority Ref="84" UseFont="false" UseBorders="false" />
+        </Item3>
+        <Item4 Ref="85" ControlType="XRLabel" Name="XrLabel18" AutoWidth="true" ProcessNullValues="Suppress" TextTrimming="Word" Text="XrLabel18" SnapLineMargin="1,1,1,1,100" TextAlignment="MiddleCenter" WordWrap="false" SizeF="35.44304,15" LocationFloat="41.77221, 1.00001" Dpi="100" Font="Microsoft Sans Serif, 7.8pt, charSet=222" Padding="1,1,1,1,100" Visible="false">
+          <Summary Ref="86" FormatString="{0:#.00}" />
+          <DataBindings>
+            <Item1 Ref="87" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ID" />
+          </DataBindings>
+          <StylePriority Ref="88" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="89" ControlType="XRLine" Name="XrLine1" SizeF="890,2" LocationFloat="4.999975, 29.00002" Dpi="100" BorderWidth="1.5" BorderDashStyle="Dot">
+          <StylePriority Ref="90" UseBorderWidth="false" UseBorderDashStyle="false" />
+        </Item5>
+        <Item6 Ref="91" ControlType="XRLabel" Name="XrLabel34" AutoWidth="true" NullValueText="0" TextAlignment="MiddleCenter" WordWrap="false" SizeF="114.3425,18" LocationFloat="358.5325, 2.999989" Dpi="100" StyleName="FieldCaption" BackColor="LightGray" Padding="2,2,0,0,100" Borders="All">
+          <Summary Ref="92" FormatString="รถ : {0} คัน" Running="Group" Func="Count" />
+          <DataBindings>
+            <Item1 Ref="93" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.TRUCK No." />
+          </DataBindings>
+          <StylePriority Ref="94" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+      </Controls>
+    </Item3>
+    <Item4 Ref="95" ControlType="PageFooterBand" Name="PageFooterBand1" PrintOn="NotWithReportFooter" HeightF="17.166647" Dpi="100">
+      <Controls>
+        <Item1 Ref="96" ControlType="XRPageInfo" Name="XrPageInfo1" PageInfo="DateTime" SizeF="440,13" LocationFloat="4.99993658, 0" Dpi="100" StyleName="PageInfo" Padding="2,2,0,0,100" />
+        <Item2 Ref="97" ControlType="XRPageInfo" Name="XrPageInfo2" Format="Page {0} of {1}" TextAlignment="TopRight" SizeF="440,13" LocationFloat="449.999939, 0" Dpi="100" StyleName="PageInfo" Padding="2,2,0,0,100" />
+      </Controls>
+    </Item4>
+    <Item5 Ref="98" ControlType="ReportHeaderBand" Name="ReportHeaderBand1" HeightF="70.62122" KeepTogether="true" Dpi="100">
+      <Controls>
+        <Item1 Ref="99" ControlType="XRLabel" Name="XrLabel25" Text="รายงานตรวจรับเศษกระดาษ (IVM 4.0)" TextAlignment="MiddleCenter" SizeF="809.0909,31" LocationFloat="5.833241, 4.166676" Dpi="100" StyleName="Title" Font="TH Sarabun New, 24pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="100" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="101" ControlType="XRLine" Name="XrLine6" SizeF="368.9611,10.90909" LocationFloat="225.6214, 35.16668" Dpi="100" BorderWidth="2" BorderDashStyle="DashDotDot">
+          <StylePriority Ref="102" UseBorderWidth="false" UseBorderDashStyle="false" />
+        </Item2>
+      </Controls>
+    </Item5>
+    <Item6 Ref="103" ControlType="GroupFooterBand" Name="GroupFooterBand2" HeightF="55.16663" KeepTogether="true" Dpi="100" Font="Times New Roman, 10.2pt, charSet=0" BackColor="Gainsboro" Borders="None">
+      <Controls>
+        <Item1 Ref="104" ControlType="XRLabel" Name="XrLabel29" AutoWidth="true" NullValueText="0.00" Text="รวม (Material)" TextAlignment="MiddleCenter" WordWrap="false" SizeF="76.3291,18" LocationFloat="5.833231, 0" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 18pt, style=Bold, Italic, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="105" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="106" ControlType="XRLabel" Name="XrLabel33" AutoWidth="true" Text="ค่าเฉลี่ย (Material)" TextAlignment="MiddleCenter" WordWrap="false" SizeF="80.44296,17.99998" LocationFloat="5, 28.41665" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 18pt, style=Bold, Italic, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="107" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="108" ControlType="XRLabel" Name="XrLabel26" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel26" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="369.4409, 0" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="109" FormatString="ADT : {0:n2} ตัน" Running="Group" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="110" FormatString="{0:C2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ADT" />
+          </DataBindings>
+          <StylePriority Ref="111" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="112" ControlType="XRLabel" Name="XrLabel27" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel27" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="546.062, 3.833313" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="113" FormatString="ASIS : {0:n2} ตัน" Running="Group" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="114" FormatString="{0:C2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ASIS" />
+          </DataBindings>
+          <StylePriority Ref="115" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="116" ControlType="XRLabel" Name="XrLabel28" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel28" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="186.6279, 0" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="117" FormatString="BALE : {0:n2} มัด" Running="Group" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="118" FormatString="{0:C2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.bale" />
+          </DataBindings>
+          <StylePriority Ref="119" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="120" ControlType="XRLabel" Name="XrLabel30" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel30" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="186.6279, 23.83331" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="121" FormatString="MP : {0:n2}" Running="Group" Func="Avg" />
+          <DataBindings>
+            <Item1 Ref="122" FormatString="{0:C2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.MP AVG" />
+          </DataBindings>
+          <StylePriority Ref="123" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="124" ControlType="XRLabel" Name="XrLabel31" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel31" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="369.4409, 23.83331" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="125" FormatString="OT: {0:n2}" Running="Group" Func="Avg" />
+          <DataBindings>
+            <Item1 Ref="126" FormatString="{0:C2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.OT AVG" />
+          </DataBindings>
+          <StylePriority Ref="127" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="128" ControlType="XRLabel" Name="XrLabel32" AutoWidth="true" NullValueText="0.00" TextTrimming="Word" Text="XrLabel32" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="546.0619, 28.41665" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="129" FormatString="PM : {0:n2}" Running="Group" Func="Avg" />
+          <DataBindings>
+            <Item1 Ref="130" FormatString="{0:C2}" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.PM AVG" />
+          </DataBindings>
+          <StylePriority Ref="131" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="132" ControlType="XRLine" Name="XrLine4" SizeF="890,2.000002" LocationFloat="2.543131E-05, 53.16661" Dpi="100" BorderDashStyle="DashDot">
+          <StylePriority Ref="133" UseBorderDashStyle="false" />
+        </Item9>
+      </Controls>
+      <StylePriority Ref="134" UseFont="false" UseBackColor="false" UseBorders="false" />
+    </Item6>
+    <Item7 Ref="135" ControlType="GroupFooterBand" Name="GroupFooterBand3" Level="1" PageBreak="AfterBandExceptLastEntry" HeightF="52.83335" Dpi="100" BackColor="LightGray" Borders="None">
+      <Controls>
+        <Item1 Ref="136" ControlType="XRLine" Name="XrLine5" SizeF="890,2.000002" LocationFloat="5.833231, 46.00002" Dpi="100" BorderWidth="1.5" BorderDashStyle="Dot">
+          <StylePriority Ref="137" UseBorderWidth="false" UseBorderDashStyle="false" />
+        </Item1>
+        <Item2 Ref="138" ControlType="XRLabel" Name="XrLabel36" AutoWidth="true" NullValueText="0.00" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="369.4409, 3.814697E-06" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="139" FormatString="ADT : {0:n2} ตัน" Running="Group" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="140" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ADT" />
+          </DataBindings>
+          <StylePriority Ref="141" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="142" ControlType="XRLabel" Name="XrLabel37" AutoWidth="true" NullValueText="0.00" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="546.0619, 3.814697E-06" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="143" FormatString="ASIS : {0:n2} ตัน" Running="Group" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="144" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.ASIS" />
+          </DataBindings>
+          <StylePriority Ref="145" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="146" ControlType="XRLabel" Name="XrLabel38" AutoWidth="true" NullValueText="0.00" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="186.6279, 3.814697E-06" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="147" FormatString="BALE : {0:n2} มัด" Running="Group" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="148" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.bale" />
+          </DataBindings>
+          <StylePriority Ref="149" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="150" ControlType="XRLabel" Name="XrLabel39" AutoWidth="true" NullValueText="0.00" Text="รวม (Receive date)" TextAlignment="MiddleCenter" WordWrap="false" SizeF="76.3291,18" LocationFloat="5, 1" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 18pt, style=Bold, Italic, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="151" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="152" ControlType="XRLabel" Name="XrLabel40" AutoWidth="true" NullValueText="0.00" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="186.6279, 20.66671" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="153" FormatString="MP : {0:n2}" Running="Group" Func="Avg" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="154" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.MP AVG" />
+          </DataBindings>
+          <StylePriority Ref="155" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="156" ControlType="XRLabel" Name="XrLabel41" AutoWidth="true" NullValueText="0.00" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="369.4409, 20.66671" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="157" FormatString="OT: {0:n2}" Running="Group" Func="Avg" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="158" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.OT AVG" />
+          </DataBindings>
+          <StylePriority Ref="159" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="160" ControlType="XRLabel" Name="XrLabel42" AutoWidth="true" NullValueText="0.00" TextAlignment="MiddleRight" WordWrap="false" SizeF="75.55905,18" LocationFloat="546.0619, 20.66671" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="161" FormatString="PM : {0:n2}" Running="Group" Func="Avg" IgnoreNullValues="true" />
+          <DataBindings>
+            <Item1 Ref="162" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.PM AVG" />
+          </DataBindings>
+          <StylePriority Ref="163" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="164" ControlType="XRLabel" Name="XrLabel43" AutoWidth="true" Text="ค่าเฉลี่ย (Receive date)" TextAlignment="MiddleCenter" WordWrap="false" SizeF="80.44296,17.99998" LocationFloat="5, 24.00004" Dpi="100" StyleName="FieldCaption" Font="TH Sarabun New, 18pt, style=Bold, Italic, charSet=0" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="165" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="166" ControlType="XRLabel" Name="XrLabel44" AutoWidth="true" NullValueText="0" Text="XrLabel44" TextAlignment="MiddleRight" WordWrap="false" SizeF="114.3425,18" LocationFloat="691.7086, 10" Dpi="100" StyleName="FieldCaption" BackColor="LightGray" Padding="2,2,0,0,100" Borders="All">
+          <Summary Ref="167" FormatString="รวมจำนวนรถ : {0} คัน" Running="Group" Func="Count" />
+          <DataBindings>
+            <Item1 Ref="168" PropertyName="Text" DataMember="proc_IVM_MaterialReceive_3997.TRUCK No." />
+          </DataBindings>
+          <StylePriority Ref="169" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+      </Controls>
+      <StylePriority Ref="170" UseBackColor="false" UseBorders="false" />
+    </Item7>
+    <Item8 Ref="171" ControlType="TopMarginBand" Name="TopMarginBand1" HeightF="6.666667" Dpi="100" />
+    <Item9 Ref="172" ControlType="BottomMarginBand" Name="BottomMarginBand1" HeightF="25.333353" Dpi="100" />
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="173" Name="Title" BorderStyle="Inset" Font="Times New Roman, 24pt" ForeColor="Black" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="174" Name="FieldCaption" BorderStyle="Inset" Padding="2,2,2,2,100" Font="TH Sarabun New, 18pt, style=Bold, charSet=0" ForeColor="Black" BackColor="Transparent" BorderColor="Black" Sides="Top" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item3 Ref="175" Name="PageInfo" BorderStyle="Inset" Font="Times New Roman, 8pt" ForeColor="Black" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item4 Ref="176" Name="DataField" BorderStyle="Inset" Padding="1,1,1,1,100" Font="TH Sarabun New, 16.2pt, charSet=0" ForeColor="Black" BackColor="Transparent" BorderColor="Black" Sides="Bottom" StringFormat="Near;Near;0;None;Character;Default" TextAlignment="TopLeft" BorderWidthSerializable="1" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v16.1" Name="SqlDataSource1" Base64="PFNxbERhdGFTb3VyY2U+PE5hbWU+U3FsRGF0YVNvdXJjZTE8L05hbWU+PENvbm5lY3Rpb24gTmFtZT0ibG9jYWxob3N0X01QbGFueF9Db25uZWN0aW9uIiBQcm92aWRlcktleT0iTVNTcWxTZXJ2ZXIiPjxQYXJhbWV0ZXJzPjxQYXJhbWV0ZXIgTmFtZT0ic2VydmVyIiBWYWx1ZT0ibG9jYWxob3N0IiAvPjxQYXJhbWV0ZXIgTmFtZT0iZGF0YWJhc2UiIFZhbHVlPSJNUGxhbngiIC8+PFBhcmFtZXRlciBOYW1lPSJ1c2VJbnRlZ3JhdGVkU2VjdXJpdHkiIFZhbHVlPSJUcnVlIiAvPjxQYXJhbWV0ZXIgTmFtZT0icmVhZCBvbmx5IiBWYWx1ZT0iMSIgLz48UGFyYW1ldGVyIE5hbWU9ImdlbmVyYXRlQ29ubmVjdGlvbkhlbHBlciIgVmFsdWU9ImZhbHNlIiAvPjwvUGFyYW1ldGVycz48L0Nvbm5lY3Rpb24+PFF1ZXJ5IFR5cGU9IlN0b3JlZFByb2NRdWVyeSIgTmFtZT0icHJvY19JVk1fTWF0ZXJpYWxSZWNlaXZlXzM5OTciPjxQYXJhbWV0ZXIgTmFtZT0iQFN0YXJ0RGF0ZSIgVHlwZT0iU3lzdGVtLkRhdGVUaW1lIj42MzY4MTg5NzYwMDAwMDAwMDA8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBFbmREYXRlIiBUeXBlPSJTeXN0ZW0uRGF0ZVRpbWUiPjYzNjg0NDg5NjAwMDAwMDAwMDwvUGFyYW1ldGVyPjxQcm9jTmFtZT5wcm9jX0lWTV9NYXRlcmlhbFJlY2VpdmVfMzk5NzwvUHJvY05hbWU+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9IlNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJwcm9jX0lWTV9NYXRlcmlhbFJlY2VpdmVfMzk5NyI+PEZpZWxkIE5hbWU9IklEIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iUmVjZWl2ZURhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJXZWlnaHRpY2tldCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJNYXRlcmlhbCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJiYWxlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJBRFQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkFTSVMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1QIEFWRyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT1QgQVZHIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJQTSBBVkciIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlRSVUNLIE5vLiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IuC4peC4suC4mSIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgQ29tbWFuZFRpbWVvdXQ9IjAiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

@@ -23,23 +23,24 @@ Partial Public Class IVM_MaterialReceive_3996
         Dim XrSummary1 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary2 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary3 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
-        Dim XrSummary8 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary4 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary5 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary6 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary7 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
+        Dim XrSummary8 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
+        Dim XrSummary9 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim MsSqlConnectionParameters1 As DevExpress.DataAccess.ConnectionParameters.MsSqlConnectionParameters = New DevExpress.DataAccess.ConnectionParameters.MsSqlConnectionParameters()
         Dim StoredProcQuery1 As DevExpress.DataAccess.Sql.StoredProcQuery = New DevExpress.DataAccess.Sql.StoredProcQuery()
         Dim QueryParameter1 As DevExpress.DataAccess.Sql.QueryParameter = New DevExpress.DataAccess.Sql.QueryParameter()
         Dim QueryParameter2 As DevExpress.DataAccess.Sql.QueryParameter = New DevExpress.DataAccess.Sql.QueryParameter()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(IVM_MaterialReceive_3996))
+        Dim XrGroupSortingSummary1 As DevExpress.XtraReports.UI.XRGroupSortingSummary = New DevExpress.XtraReports.UI.XRGroupSortingSummary()
         Dim XrSummary10 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary11 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary12 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary13 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary14 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary15 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
-        Dim XrSummary9 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary16 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary17 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary18 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
@@ -47,20 +48,18 @@ Partial Public Class IVM_MaterialReceive_3996
         Dim XrSummary20 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary21 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim XrSummary22 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
-        Dim XrSummary23 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
-        Dim XrSummary24 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
-        Dim XrSummary25 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
+        Me.XrLine3 = New DevExpress.XtraReports.UI.XRLine()
         Me.XrLabel15 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel16 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel17 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel18 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel19 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel20 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel21 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel22 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel23 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel24 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel23 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel18 = New DevExpress.XtraReports.UI.XRLabel()
         Me.SqlDataSource1 = New DevExpress.DataAccess.Sql.SqlDataSource(Me.components)
         Me.GroupHeaderBand1 = New DevExpress.XtraReports.UI.GroupHeaderBand()
         Me.XrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
@@ -68,34 +67,36 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.GroupHeaderBand2 = New DevExpress.XtraReports.UI.GroupHeaderBand()
         Me.XrLabel4 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel3 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.GroupHeaderBand3 = New DevExpress.XtraReports.UI.GroupHeaderBand()
-        Me.XrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel7 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel8 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel9 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel10 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel11 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel12 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel13 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel14 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLine1 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLabel34 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.SubBand1 = New DevExpress.XtraReports.UI.SubBand()
+        Me.XrLabel10 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel14 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel13 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel12 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel11 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLine2 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLabel9 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel7 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
         Me.PageFooterBand1 = New DevExpress.XtraReports.UI.PageFooterBand()
         Me.XrPageInfo1 = New DevExpress.XtraReports.UI.XRPageInfo()
         Me.XrPageInfo2 = New DevExpress.XtraReports.UI.XRPageInfo()
         Me.ReportHeaderBand1 = New DevExpress.XtraReports.UI.ReportHeaderBand()
         Me.XrLabel25 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLine6 = New DevExpress.XtraReports.UI.XRLine()
         Me.GroupFooterBand1 = New DevExpress.XtraReports.UI.GroupFooterBand()
         Me.GroupFooterBand2 = New DevExpress.XtraReports.UI.GroupFooterBand()
+        Me.XrLabel29 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel33 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel26 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel27 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel28 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel30 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel31 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel32 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel34 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLine4 = New DevExpress.XtraReports.UI.XRLine()
         Me.GroupFooterBand3 = New DevExpress.XtraReports.UI.GroupFooterBand()
+        Me.XrLine5 = New DevExpress.XtraReports.UI.XRLine()
         Me.XrLabel36 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel37 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel38 = New DevExpress.XtraReports.UI.XRLabel()
@@ -105,23 +106,21 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel42 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel43 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel44 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.ReportFooterBand1 = New DevExpress.XtraReports.UI.ReportFooterBand()
-        Me.XrLabel46 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel47 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel48 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel49 = New DevExpress.XtraReports.UI.XRLabel()
         Me.Title = New DevExpress.XtraReports.UI.XRControlStyle()
         Me.FieldCaption = New DevExpress.XtraReports.UI.XRControlStyle()
         Me.PageInfo = New DevExpress.XtraReports.UI.XRControlStyle()
         Me.DataField = New DevExpress.XtraReports.UI.XRControlStyle()
         Me.TopMarginBand1 = New DevExpress.XtraReports.UI.TopMarginBand()
         Me.BottomMarginBand1 = New DevExpress.XtraReports.UI.BottomMarginBand()
-        Me.XrLine3 = New DevExpress.XtraReports.UI.XRLine()
-        Me.XrLine4 = New DevExpress.XtraReports.UI.XRLine()
-        Me.XrLine5 = New DevExpress.XtraReports.UI.XRLine()
-        Me.XrLabel29 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLabel33 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.XrLine6 = New DevExpress.XtraReports.UI.XRLine()
+        Me.FormattingRule1 = New DevExpress.XtraReports.UI.FormattingRule()
+        Me.SumMP = New DevExpress.XtraReports.UI.CalculatedField()
+        Me.CountWT = New DevExpress.XtraReports.UI.CalculatedField()
+        Me.WAMP = New DevExpress.XtraReports.UI.CalculatedField()
+        Me.XrLabel46 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.WAOT = New DevExpress.XtraReports.UI.CalculatedField()
+        Me.WAPM = New DevExpress.XtraReports.UI.CalculatedField()
+        Me.XrLabel30 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel31 = New DevExpress.XtraReports.UI.XRLabel()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'Detail
@@ -129,7 +128,7 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.Detail.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLine3, Me.XrLabel15, Me.XrLabel16, Me.XrLabel17, Me.XrLabel19, Me.XrLabel20, Me.XrLabel21, Me.XrLabel22, Me.XrLabel24, Me.XrLabel23})
         Me.Detail.Dpi = 100.0!
-        Me.Detail.HeightF = 23.33333!
+        Me.Detail.HeightF = 20.0!
         Me.Detail.KeepTogetherWithDetailReports = True
         Me.Detail.MultiColumn.Layout = DevExpress.XtraPrinting.ColumnLayout.AcrossThenDown
         Me.Detail.Name = "Detail"
@@ -137,6 +136,17 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.Detail.StyleName = "DataField"
         Me.Detail.StylePriority.UseBorders = False
         Me.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrLine3
+        '
+        Me.XrLine3.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.DashDot
+        Me.XrLine3.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
+        Me.XrLine3.Dpi = 100.0!
+        Me.XrLine3.LocationFloat = New DevExpress.Utils.PointFloat(0!, 17.0!)
+        Me.XrLine3.Name = "XrLine3"
+        Me.XrLine3.SizeF = New System.Drawing.SizeF(890.0!, 2.000002!)
+        Me.XrLine3.StylePriority.UseBorderDashStyle = False
+        Me.XrLine3.StylePriority.UseBorders = False
         '
         'XrLabel15
         '
@@ -210,29 +220,6 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel17.TextTrimming = System.Drawing.StringTrimming.Word
         Me.XrLabel17.WordWrap = False
-        '
-        'XrLabel18
-        '
-        Me.XrLabel18.AutoWidth = True
-        Me.XrLabel18.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ID")})
-        Me.XrLabel18.Dpi = 100.0!
-        Me.XrLabel18.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.XrLabel18.LocationFloat = New DevExpress.Utils.PointFloat(41.77221!, 1.00001!)
-        Me.XrLabel18.Name = "XrLabel18"
-        Me.XrLabel18.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel18.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress
-        Me.XrLabel18.SizeF = New System.Drawing.SizeF(35.44304!, 15.0!)
-        Me.XrLabel18.SnapLineMargin = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel18.StylePriority.UseFont = False
-        Me.XrLabel18.StylePriority.UsePadding = False
-        Me.XrLabel18.StylePriority.UseTextAlignment = False
-        XrSummary8.FormatString = "{0:#.00}"
-        Me.XrLabel18.Summary = XrSummary8
-        Me.XrLabel18.Text = "XrLabel18"
-        Me.XrLabel18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrLabel18.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel18.Visible = False
-        Me.XrLabel18.WordWrap = False
         '
         'XrLabel19
         '
@@ -310,7 +297,7 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.XrLabel22.AutoWidth = True
         Me.XrLabel22.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel22.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.TRUCK No.", "{0:#}")})
+        Me.XrLabel22.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.Weighticket")})
         Me.XrLabel22.Dpi = 100.0!
         Me.XrLabel22.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XrLabel22.LocationFloat = New DevExpress.Utils.PointFloat(692.7054!, 0!)
@@ -322,33 +309,13 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel22.StylePriority.UseFont = False
         Me.XrLabel22.StylePriority.UsePadding = False
         Me.XrLabel22.StylePriority.UseTextAlignment = False
-        XrSummary7.FormatString = "{0:#.00}"
+        XrSummary7.FormatString = "{0:#,#}"
+        XrSummary7.Func = DevExpress.XtraReports.UI.SummaryFunc.RecordNumber
+        XrSummary7.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel22.Summary = XrSummary7
-        Me.XrLabel22.Text = "XrLabel22"
         Me.XrLabel22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
         Me.XrLabel22.TextTrimming = System.Drawing.StringTrimming.Word
         Me.XrLabel22.WordWrap = False
-        '
-        'XrLabel23
-        '
-        Me.XrLabel23.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel23.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.Weighticket", "{0:#}")})
-        Me.XrLabel23.Dpi = 100.0!
-        Me.XrLabel23.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel23.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
-        Me.XrLabel23.Name = "XrLabel23"
-        Me.XrLabel23.NullValueText = "0.00"
-        Me.XrLabel23.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel23.SizeF = New System.Drawing.SizeF(106.3291!, 15.0!)
-        Me.XrLabel23.SnapLineMargin = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel23.StylePriority.UseBorders = False
-        Me.XrLabel23.StylePriority.UseFont = False
-        Me.XrLabel23.StylePriority.UsePadding = False
-        Me.XrLabel23.StylePriority.UseTextAlignment = False
-        Me.XrLabel23.Text = "XrLabel23"
-        Me.XrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
-        Me.XrLabel23.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel23.WordWrap = False
         '
         'XrLabel24
         '
@@ -367,6 +334,52 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
         Me.XrLabel24.TextTrimming = System.Drawing.StringTrimming.Word
         Me.XrLabel24.WordWrap = False
+        '
+        'XrLabel23
+        '
+        Me.XrLabel23.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel23.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.Weighticket", "{0:#}")})
+        Me.XrLabel23.Dpi = 100.0!
+        Me.XrLabel23.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel23.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
+        Me.XrLabel23.Name = "XrLabel23"
+        Me.XrLabel23.NullValueText = "0.00"
+        Me.XrLabel23.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel23.SizeF = New System.Drawing.SizeF(106.3291!, 15.0!)
+        Me.XrLabel23.SnapLineMargin = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel23.StylePriority.UseBorders = False
+        Me.XrLabel23.StylePriority.UseFont = False
+        Me.XrLabel23.StylePriority.UsePadding = False
+        Me.XrLabel23.StylePriority.UseTextAlignment = False
+        XrSummary8.IgnoreNullValues = True
+        Me.XrLabel23.Summary = XrSummary8
+        Me.XrLabel23.Text = "XrLabel23"
+        Me.XrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        Me.XrLabel23.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel23.WordWrap = False
+        '
+        'XrLabel18
+        '
+        Me.XrLabel18.AutoWidth = True
+        Me.XrLabel18.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ID")})
+        Me.XrLabel18.Dpi = 100.0!
+        Me.XrLabel18.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.XrLabel18.LocationFloat = New DevExpress.Utils.PointFloat(41.77221!, 1.00001!)
+        Me.XrLabel18.Name = "XrLabel18"
+        Me.XrLabel18.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel18.ProcessNullValues = DevExpress.XtraReports.UI.ValueSuppressType.Suppress
+        Me.XrLabel18.SizeF = New System.Drawing.SizeF(35.44304!, 15.0!)
+        Me.XrLabel18.SnapLineMargin = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel18.StylePriority.UseFont = False
+        Me.XrLabel18.StylePriority.UsePadding = False
+        Me.XrLabel18.StylePriority.UseTextAlignment = False
+        XrSummary9.FormatString = "{0:#.00}"
+        Me.XrLabel18.Summary = XrSummary9
+        Me.XrLabel18.Text = "XrLabel18"
+        Me.XrLabel18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrLabel18.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel18.Visible = False
+        Me.XrLabel18.WordWrap = False
         '
         'SqlDataSource1
         '
@@ -396,11 +409,15 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.GroupHeaderBand1.Dpi = 100.0!
         Me.GroupHeaderBand1.Font = New System.Drawing.Font("TH Sarabun New", 18.0!, System.Drawing.FontStyle.Bold)
         Me.GroupHeaderBand1.GroupFields.AddRange(New DevExpress.XtraReports.UI.GroupField() {New DevExpress.XtraReports.UI.GroupField("ReceiveDate", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)})
+        Me.GroupHeaderBand1.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail
         Me.GroupHeaderBand1.HeightF = 28.50002!
         Me.GroupHeaderBand1.KeepTogether = True
-        Me.GroupHeaderBand1.Level = 2
+        Me.GroupHeaderBand1.Level = 1
         Me.GroupHeaderBand1.Name = "GroupHeaderBand1"
         Me.GroupHeaderBand1.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBandExceptFirstEntry
+        XrGroupSortingSummary1.FieldName = "bale"
+        XrGroupSortingSummary1.IgnoreNullValues = True
+        Me.GroupHeaderBand1.SortingSummary = XrGroupSortingSummary1
         Me.GroupHeaderBand1.StyleName = "FieldCaption"
         Me.GroupHeaderBand1.StylePriority.UseBackColor = False
         Me.GroupHeaderBand1.StylePriority.UseFont = False
@@ -425,6 +442,8 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel2.StylePriority.UseBorders = False
         Me.XrLabel2.StylePriority.UseFont = False
         Me.XrLabel2.StylePriority.UseTextAlignment = False
+        XrSummary10.IgnoreNullValues = True
+        Me.XrLabel2.Summary = XrSummary10
         Me.XrLabel2.Text = "XrLabel2"
         Me.XrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
         Me.XrLabel2.TextTrimming = System.Drawing.StringTrimming.Word
@@ -460,9 +479,10 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.GroupHeaderBand2.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel4, Me.XrLabel3, Me.XrLabel8, Me.XrLabel18, Me.XrLine1, Me.XrLabel34})
         Me.GroupHeaderBand2.Dpi = 100.0!
         Me.GroupHeaderBand2.GroupFields.AddRange(New DevExpress.XtraReports.UI.GroupField() {New DevExpress.XtraReports.UI.GroupField("Material", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)})
-        Me.GroupHeaderBand2.HeightF = 38.95455!
-        Me.GroupHeaderBand2.Level = 1
+        Me.GroupHeaderBand2.HeightF = 34.78788!
+        Me.GroupHeaderBand2.KeepTogether = True
         Me.GroupHeaderBand2.Name = "GroupHeaderBand2"
+        Me.GroupHeaderBand2.SubBands.AddRange(New DevExpress.XtraReports.UI.SubBand() {Me.SubBand1})
         '
         'XrLabel4
         '
@@ -486,6 +506,8 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel4.StylePriority.UseBorders = False
         Me.XrLabel4.StylePriority.UseFont = False
         Me.XrLabel4.StylePriority.UseTextAlignment = False
+        XrSummary11.IgnoreNullValues = True
+        Me.XrLabel4.Summary = XrSummary11
         Me.XrLabel4.Text = "XrLabel4"
         Me.XrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
         Me.XrLabel4.TextTrimming = System.Drawing.StringTrimming.Word
@@ -514,80 +536,6 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
         Me.XrLabel3.WordWrap = False
         '
-        'GroupHeaderBand3
-        '
-        Me.GroupHeaderBand3.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dash
-        Me.GroupHeaderBand3.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.GroupHeaderBand3.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel5, Me.XrLabel6, Me.XrLabel7, Me.XrLabel9, Me.XrLabel10, Me.XrLabel11, Me.XrLabel12, Me.XrLabel13, Me.XrLabel14, Me.XrLine2})
-        Me.GroupHeaderBand3.Dpi = 100.0!
-        Me.GroupHeaderBand3.HeightF = 34.16672!
-        Me.GroupHeaderBand3.KeepTogether = True
-        Me.GroupHeaderBand3.Name = "GroupHeaderBand3"
-        Me.GroupHeaderBand3.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 2, 100.0!)
-        Me.GroupHeaderBand3.StyleName = "FieldCaption"
-        Me.GroupHeaderBand3.StylePriority.UseBorderDashStyle = False
-        Me.GroupHeaderBand3.StylePriority.UseBorders = False
-        Me.GroupHeaderBand3.StylePriority.UsePadding = False
-        Me.GroupHeaderBand3.StylePriority.UseTextAlignment = False
-        Me.GroupHeaderBand3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        '
-        'XrLabel5
-        '
-        Me.XrLabel5.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel5.Dpi = 100.0!
-        Me.XrLabel5.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
-                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel5.LocationFloat = New DevExpress.Utils.PointFloat(181.1708!, 5.00001!)
-        Me.XrLabel5.Name = "XrLabel5"
-        Me.XrLabel5.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel5.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
-        Me.XrLabel5.StylePriority.UseBorders = False
-        Me.XrLabel5.StylePriority.UseFont = False
-        Me.XrLabel5.StylePriority.UsePadding = False
-        Me.XrLabel5.StylePriority.UseTextAlignment = False
-        Me.XrLabel5.Text = "ADT"
-        Me.XrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
-        Me.XrLabel5.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel5.WordWrap = False
-        '
-        'XrLabel6
-        '
-        Me.XrLabel6.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel6.Dpi = 100.0!
-        Me.XrLabel6.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
-                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel6.LocationFloat = New DevExpress.Utils.PointFloat(284.4777!, 5.00001!)
-        Me.XrLabel6.Name = "XrLabel6"
-        Me.XrLabel6.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel6.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
-        Me.XrLabel6.StylePriority.UseBorders = False
-        Me.XrLabel6.StylePriority.UseFont = False
-        Me.XrLabel6.StylePriority.UsePadding = False
-        Me.XrLabel6.StylePriority.UseTextAlignment = False
-        Me.XrLabel6.Text = "ASIS"
-        Me.XrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
-        Me.XrLabel6.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel6.WordWrap = False
-        '
-        'XrLabel7
-        '
-        Me.XrLabel7.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel7.Dpi = 100.0!
-        Me.XrLabel7.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
-                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel7.LocationFloat = New DevExpress.Utils.PointFloat(103.3069!, 3.99999!)
-        Me.XrLabel7.Name = "XrLabel7"
-        Me.XrLabel7.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel7.SizeF = New System.Drawing.SizeF(50.55692!, 19.0!)
-        Me.XrLabel7.StylePriority.UseBorders = False
-        Me.XrLabel7.StylePriority.UseFont = False
-        Me.XrLabel7.StylePriority.UsePadding = False
-        Me.XrLabel7.StylePriority.UseTextAlignment = False
-        Me.XrLabel7.Text = "BALE"
-        Me.XrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
-        Me.XrLabel7.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel7.WordWrap = False
-        '
         'XrLabel8
         '
         Me.XrLabel8.Borders = DevExpress.XtraPrinting.BorderSide.None
@@ -602,24 +550,49 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel8.Text = "ID"
         Me.XrLabel8.Visible = False
         '
-        'XrLabel9
+        'XrLine1
         '
-        Me.XrLabel9.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel9.Dpi = 100.0!
-        Me.XrLabel9.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
-                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel9.LocationFloat = New DevExpress.Utils.PointFloat(387.7846!, 5.00001!)
-        Me.XrLabel9.Name = "XrLabel9"
-        Me.XrLabel9.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel9.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
-        Me.XrLabel9.StylePriority.UseBorders = False
-        Me.XrLabel9.StylePriority.UseFont = False
-        Me.XrLabel9.StylePriority.UsePadding = False
-        Me.XrLabel9.StylePriority.UseTextAlignment = False
-        Me.XrLabel9.Text = "MP AVG"
-        Me.XrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
-        Me.XrLabel9.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel9.WordWrap = False
+        Me.XrLine1.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
+        Me.XrLine1.BorderWidth = 1.5!
+        Me.XrLine1.Dpi = 100.0!
+        Me.XrLine1.LocationFloat = New DevExpress.Utils.PointFloat(4.999975!, 29.00002!)
+        Me.XrLine1.Name = "XrLine1"
+        Me.XrLine1.SizeF = New System.Drawing.SizeF(890.0!, 2.0!)
+        Me.XrLine1.StylePriority.UseBorderDashStyle = False
+        Me.XrLine1.StylePriority.UseBorderWidth = False
+        '
+        'XrLabel34
+        '
+        Me.XrLabel34.AutoWidth = True
+        Me.XrLabel34.BackColor = System.Drawing.Color.LightGray
+        Me.XrLabel34.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel34.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.Weighticket")})
+        Me.XrLabel34.Dpi = 100.0!
+        Me.XrLabel34.LocationFloat = New DevExpress.Utils.PointFloat(358.5325!, 2.999989!)
+        Me.XrLabel34.Name = "XrLabel34"
+        Me.XrLabel34.NullValueText = "0"
+        Me.XrLabel34.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel34.SizeF = New System.Drawing.SizeF(114.3425!, 18.0!)
+        Me.XrLabel34.StyleName = "FieldCaption"
+        Me.XrLabel34.StylePriority.UseBackColor = False
+        Me.XrLabel34.StylePriority.UseBorders = False
+        Me.XrLabel34.StylePriority.UseTextAlignment = False
+        XrSummary12.FormatString = "รถ : {0} คัน"
+        XrSummary12.Func = DevExpress.XtraReports.UI.SummaryFunc.Count
+        XrSummary12.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
+        Me.XrLabel34.Summary = XrSummary12
+        Me.XrLabel34.Text = "TRUCK No"
+        Me.XrLabel34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrLabel34.WordWrap = False
+        '
+        'SubBand1
+        '
+        Me.SubBand1.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel10, Me.XrLabel14, Me.XrLabel13, Me.XrLabel12, Me.XrLabel11, Me.XrLine2, Me.XrLabel9, Me.XrLabel7, Me.XrLabel6, Me.XrLabel5})
+        Me.SubBand1.Dpi = 100.0!
+        Me.SubBand1.HeightF = 25.16671!
+        Me.SubBand1.Name = "SubBand1"
         '
         'XrLabel10
         '
@@ -627,7 +600,7 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel10.Dpi = 100.0!
         Me.XrLabel10.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel10.LocationFloat = New DevExpress.Utils.PointFloat(491.0916!, 5.00001!)
+        Me.XrLabel10.LocationFloat = New DevExpress.Utils.PointFloat(515.237!, 0!)
         Me.XrLabel10.Name = "XrLabel10"
         Me.XrLabel10.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
         Me.XrLabel10.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
@@ -640,43 +613,23 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel10.TextTrimming = System.Drawing.StringTrimming.Word
         Me.XrLabel10.WordWrap = False
         '
-        'XrLabel11
+        'XrLabel14
         '
-        Me.XrLabel11.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel11.Dpi = 100.0!
-        Me.XrLabel11.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+        Me.XrLabel14.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel14.Dpi = 100.0!
+        Me.XrLabel14.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel11.LocationFloat = New DevExpress.Utils.PointFloat(594.3985!, 5.00001!)
-        Me.XrLabel11.Name = "XrLabel11"
-        Me.XrLabel11.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel11.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
-        Me.XrLabel11.StylePriority.UseBorders = False
-        Me.XrLabel11.StylePriority.UseFont = False
-        Me.XrLabel11.StylePriority.UsePadding = False
-        Me.XrLabel11.StylePriority.UseTextAlignment = False
-        Me.XrLabel11.Text = "PM AVG"
-        Me.XrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
-        Me.XrLabel11.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel11.WordWrap = False
-        '
-        'XrLabel12
-        '
-        Me.XrLabel12.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel12.Dpi = 100.0!
-        Me.XrLabel12.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
-                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel12.LocationFloat = New DevExpress.Utils.PointFloat(685.2799!, 5.0!)
-        Me.XrLabel12.Name = "XrLabel12"
-        Me.XrLabel12.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel12.SizeF = New System.Drawing.SizeF(81.98767!, 19.0!)
-        Me.XrLabel12.StylePriority.UseBorders = False
-        Me.XrLabel12.StylePriority.UseFont = False
-        Me.XrLabel12.StylePriority.UsePadding = False
-        Me.XrLabel12.StylePriority.UseTextAlignment = False
-        Me.XrLabel12.Text = "TRUCK No "
-        Me.XrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
-        Me.XrLabel12.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel12.WordWrap = False
+        Me.XrLabel14.LocationFloat = New DevExpress.Utils.PointFloat(802.2528!, 0!)
+        Me.XrLabel14.Name = "XrLabel14"
+        Me.XrLabel14.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel14.SizeF = New System.Drawing.SizeF(68.27264!, 19.0!)
+        Me.XrLabel14.StylePriority.UseBorders = False
+        Me.XrLabel14.StylePriority.UseFont = False
+        Me.XrLabel14.StylePriority.UsePadding = False
+        Me.XrLabel14.StylePriority.UseTextAlignment = False
+        Me.XrLabel14.Text = "ลาน"
+        Me.XrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        Me.XrLabel14.TextTrimming = System.Drawing.StringTrimming.Word
         '
         'XrLabel13
         '
@@ -684,7 +637,7 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel13.Dpi = 100.0!
         Me.XrLabel13.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel13.LocationFloat = New DevExpress.Utils.PointFloat(5.329157!, 3.99999!)
+        Me.XrLabel13.LocationFloat = New DevExpress.Utils.PointFloat(29.47458!, 0!)
         Me.XrLabel13.Name = "XrLabel13"
         Me.XrLabel13.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
         Me.XrLabel13.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
@@ -697,55 +650,141 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel13.TextTrimming = System.Drawing.StringTrimming.Word
         Me.XrLabel13.WordWrap = False
         '
-        'XrLabel14
+        'XrLabel12
         '
-        Me.XrLabel14.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel14.Dpi = 100.0!
-        Me.XrLabel14.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+        Me.XrLabel12.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel12.Dpi = 100.0!
+        Me.XrLabel12.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel14.LocationFloat = New DevExpress.Utils.PointFloat(778.1074!, 5.0!)
-        Me.XrLabel14.Name = "XrLabel14"
-        Me.XrLabel14.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
-        Me.XrLabel14.SizeF = New System.Drawing.SizeF(68.27264!, 19.0!)
-        Me.XrLabel14.StylePriority.UseBorders = False
-        Me.XrLabel14.StylePriority.UseFont = False
-        Me.XrLabel14.StylePriority.UsePadding = False
-        Me.XrLabel14.StylePriority.UseTextAlignment = False
-        Me.XrLabel14.Text = "ลาน"
-        Me.XrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
-        Me.XrLabel14.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel12.LocationFloat = New DevExpress.Utils.PointFloat(709.4254!, 0!)
+        Me.XrLabel12.Name = "XrLabel12"
+        Me.XrLabel12.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel12.SizeF = New System.Drawing.SizeF(81.98767!, 19.0!)
+        Me.XrLabel12.StylePriority.UseBorders = False
+        Me.XrLabel12.StylePriority.UseFont = False
+        Me.XrLabel12.StylePriority.UsePadding = False
+        Me.XrLabel12.StylePriority.UseTextAlignment = False
+        Me.XrLabel12.Text = "TRUCK No "
+        Me.XrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        Me.XrLabel12.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel12.WordWrap = False
         '
-        'XrLine1
+        'XrLabel11
         '
-        Me.XrLine1.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
-        Me.XrLine1.BorderWidth = 1.5!
-        Me.XrLine1.Dpi = 100.0!
-        Me.XrLine1.LocationFloat = New DevExpress.Utils.PointFloat(4.999975!, 29.00002!)
-        Me.XrLine1.Name = "XrLine1"
-        Me.XrLine1.SizeF = New System.Drawing.SizeF(890.0!, 2.0!)
-        Me.XrLine1.StylePriority.UseBorderDashStyle = False
-        Me.XrLine1.StylePriority.UseBorderWidth = False
+        Me.XrLabel11.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel11.Dpi = 100.0!
+        Me.XrLabel11.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel11.LocationFloat = New DevExpress.Utils.PointFloat(618.5439!, 0!)
+        Me.XrLabel11.Name = "XrLabel11"
+        Me.XrLabel11.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel11.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
+        Me.XrLabel11.StylePriority.UseBorders = False
+        Me.XrLabel11.StylePriority.UseFont = False
+        Me.XrLabel11.StylePriority.UsePadding = False
+        Me.XrLabel11.StylePriority.UseTextAlignment = False
+        Me.XrLabel11.Text = "PM AVG"
+        Me.XrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        Me.XrLabel11.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel11.WordWrap = False
         '
         'XrLine2
         '
         Me.XrLine2.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.DashDot
         Me.XrLine2.Dpi = 100.0!
-        Me.XrLine2.LocationFloat = New DevExpress.Utils.PointFloat(0!, 28.16668!)
+        Me.XrLine2.LocationFloat = New DevExpress.Utils.PointFloat(0.8333333!, 23.16671!)
         Me.XrLine2.Name = "XrLine2"
         Me.XrLine2.SizeF = New System.Drawing.SizeF(895.0!, 2.0!)
         Me.XrLine2.StylePriority.UseBorderDashStyle = False
+        '
+        'XrLabel9
+        '
+        Me.XrLabel9.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel9.Dpi = 100.0!
+        Me.XrLabel9.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel9.LocationFloat = New DevExpress.Utils.PointFloat(411.93!, 0!)
+        Me.XrLabel9.Name = "XrLabel9"
+        Me.XrLabel9.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel9.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
+        Me.XrLabel9.StylePriority.UseBorders = False
+        Me.XrLabel9.StylePriority.UseFont = False
+        Me.XrLabel9.StylePriority.UsePadding = False
+        Me.XrLabel9.StylePriority.UseTextAlignment = False
+        Me.XrLabel9.Text = "MP AVG"
+        Me.XrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        Me.XrLabel9.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel9.WordWrap = False
+        '
+        'XrLabel7
+        '
+        Me.XrLabel7.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel7.Dpi = 100.0!
+        Me.XrLabel7.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel7.LocationFloat = New DevExpress.Utils.PointFloat(127.4523!, 0!)
+        Me.XrLabel7.Name = "XrLabel7"
+        Me.XrLabel7.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel7.SizeF = New System.Drawing.SizeF(50.55692!, 19.0!)
+        Me.XrLabel7.StylePriority.UseBorders = False
+        Me.XrLabel7.StylePriority.UseFont = False
+        Me.XrLabel7.StylePriority.UsePadding = False
+        Me.XrLabel7.StylePriority.UseTextAlignment = False
+        Me.XrLabel7.Text = "BALE"
+        Me.XrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        Me.XrLabel7.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel7.WordWrap = False
+        '
+        'XrLabel6
+        '
+        Me.XrLabel6.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel6.Dpi = 100.0!
+        Me.XrLabel6.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel6.LocationFloat = New DevExpress.Utils.PointFloat(308.6231!, 0!)
+        Me.XrLabel6.Name = "XrLabel6"
+        Me.XrLabel6.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel6.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
+        Me.XrLabel6.StylePriority.UseBorders = False
+        Me.XrLabel6.StylePriority.UseFont = False
+        Me.XrLabel6.StylePriority.UsePadding = False
+        Me.XrLabel6.StylePriority.UseTextAlignment = False
+        Me.XrLabel6.Text = "ASIS"
+        Me.XrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        Me.XrLabel6.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel6.WordWrap = False
+        '
+        'XrLabel5
+        '
+        Me.XrLabel5.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel5.Dpi = 100.0!
+        Me.XrLabel5.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel5.LocationFloat = New DevExpress.Utils.PointFloat(205.3162!, 0!)
+        Me.XrLabel5.Name = "XrLabel5"
+        Me.XrLabel5.Padding = New DevExpress.XtraPrinting.PaddingInfo(1, 1, 1, 1, 100.0!)
+        Me.XrLabel5.SizeF = New System.Drawing.SizeF(75.99995!, 19.0!)
+        Me.XrLabel5.StylePriority.UseBorders = False
+        Me.XrLabel5.StylePriority.UseFont = False
+        Me.XrLabel5.StylePriority.UsePadding = False
+        Me.XrLabel5.StylePriority.UseTextAlignment = False
+        Me.XrLabel5.Text = "ADT"
+        Me.XrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        Me.XrLabel5.TextTrimming = System.Drawing.StringTrimming.Word
+        Me.XrLabel5.WordWrap = False
         '
         'PageFooterBand1
         '
         Me.PageFooterBand1.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrPageInfo1, Me.XrPageInfo2})
         Me.PageFooterBand1.Dpi = 100.0!
-        Me.PageFooterBand1.HeightF = 18.83331!
+        Me.PageFooterBand1.HeightF = 17.16665!
         Me.PageFooterBand1.Name = "PageFooterBand1"
+        Me.PageFooterBand1.PrintOn = DevExpress.XtraReports.UI.PrintOnPages.NotWithReportFooter
         '
         'XrPageInfo1
         '
         Me.XrPageInfo1.Dpi = 100.0!
-        Me.XrPageInfo1.LocationFloat = New DevExpress.Utils.PointFloat(5.0!, 5.0!)
+        Me.XrPageInfo1.LocationFloat = New DevExpress.Utils.PointFloat(4.999937!, 0!)
         Me.XrPageInfo1.Name = "XrPageInfo1"
         Me.XrPageInfo1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
         Me.XrPageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime
@@ -756,7 +795,7 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.XrPageInfo2.Dpi = 100.0!
         Me.XrPageInfo2.Format = "Page {0} of {1}"
-        Me.XrPageInfo2.LocationFloat = New DevExpress.Utils.PointFloat(455.0!, 5.0!)
+        Me.XrPageInfo2.LocationFloat = New DevExpress.Utils.PointFloat(449.9999!, 0!)
         Me.XrPageInfo2.Name = "XrPageInfo2"
         Me.XrPageInfo2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
         Me.XrPageInfo2.SizeF = New System.Drawing.SizeF(440.0!, 13.0!)
@@ -785,6 +824,17 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel25.Text = "รายงานตรวจรับเศษกระดาษ (IVM 4.0)"
         Me.XrLabel25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
         '
+        'XrLine6
+        '
+        Me.XrLine6.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.DashDotDot
+        Me.XrLine6.BorderWidth = 2.0!
+        Me.XrLine6.Dpi = 100.0!
+        Me.XrLine6.LocationFloat = New DevExpress.Utils.PointFloat(225.6214!, 35.16668!)
+        Me.XrLine6.Name = "XrLine6"
+        Me.XrLine6.SizeF = New System.Drawing.SizeF(368.9611!, 10.90909!)
+        Me.XrLine6.StylePriority.UseBorderDashStyle = False
+        Me.XrLine6.StylePriority.UseBorderWidth = False
+        '
         'GroupFooterBand1
         '
         Me.GroupFooterBand1.Dpi = 100.0!
@@ -795,16 +845,52 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.GroupFooterBand2.BackColor = System.Drawing.Color.Gainsboro
         Me.GroupFooterBand2.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.GroupFooterBand2.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel29, Me.XrLabel33, Me.XrLabel26, Me.XrLabel27, Me.XrLabel28, Me.XrLabel30, Me.XrLabel31, Me.XrLabel32, Me.XrLine4})
+        Me.GroupFooterBand2.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel31, Me.XrLabel30, Me.XrLabel46, Me.XrLabel29, Me.XrLabel33, Me.XrLabel26, Me.XrLabel27, Me.XrLabel28, Me.XrLine4})
         Me.GroupFooterBand2.Dpi = 100.0!
         Me.GroupFooterBand2.Font = New System.Drawing.Font("Times New Roman", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupFooterBand2.HeightF = 55.16663!
         Me.GroupFooterBand2.KeepTogether = True
-        Me.GroupFooterBand2.Level = 1
         Me.GroupFooterBand2.Name = "GroupFooterBand2"
         Me.GroupFooterBand2.StylePriority.UseBackColor = False
         Me.GroupFooterBand2.StylePriority.UseBorders = False
         Me.GroupFooterBand2.StylePriority.UseFont = False
+        '
+        'XrLabel29
+        '
+        Me.XrLabel29.AutoWidth = True
+        Me.XrLabel29.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel29.Dpi = 100.0!
+        Me.XrLabel29.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel29.LocationFloat = New DevExpress.Utils.PointFloat(5.833231!, 0!)
+        Me.XrLabel29.Name = "XrLabel29"
+        Me.XrLabel29.NullValueText = "0.00"
+        Me.XrLabel29.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel29.SizeF = New System.Drawing.SizeF(76.3291!, 18.0!)
+        Me.XrLabel29.StyleName = "FieldCaption"
+        Me.XrLabel29.StylePriority.UseBorders = False
+        Me.XrLabel29.StylePriority.UseFont = False
+        Me.XrLabel29.StylePriority.UseTextAlignment = False
+        Me.XrLabel29.Text = "รวม (Material)"
+        Me.XrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrLabel29.WordWrap = False
+        '
+        'XrLabel33
+        '
+        Me.XrLabel33.AutoWidth = True
+        Me.XrLabel33.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrLabel33.Dpi = 100.0!
+        Me.XrLabel33.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel33.LocationFloat = New DevExpress.Utils.PointFloat(5.0!, 27.6333!)
+        Me.XrLabel33.Name = "XrLabel33"
+        Me.XrLabel33.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel33.SizeF = New System.Drawing.SizeF(80.44296!, 17.99998!)
+        Me.XrLabel33.StyleName = "FieldCaption"
+        Me.XrLabel33.StylePriority.UseBorders = False
+        Me.XrLabel33.StylePriority.UseFont = False
+        Me.XrLabel33.StylePriority.UseTextAlignment = False
+        Me.XrLabel33.Text = "ค่าเฉลี่ย (Weighted average)"
+        Me.XrLabel33.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrLabel33.WordWrap = False
         '
         'XrLabel26
         '
@@ -812,8 +898,8 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel26.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrLabel26.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ADT", "{0:C2}")})
         Me.XrLabel26.Dpi = 100.0!
-        Me.XrLabel26.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel26.LocationFloat = New DevExpress.Utils.PointFloat(369.4409!, 0!)
+        Me.XrLabel26.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel26.LocationFloat = New DevExpress.Utils.PointFloat(415.3163!, 3.500002!)
         Me.XrLabel26.Name = "XrLabel26"
         Me.XrLabel26.NullValueText = "0.00"
         Me.XrLabel26.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
@@ -822,10 +908,10 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel26.StylePriority.UseBorders = False
         Me.XrLabel26.StylePriority.UseFont = False
         Me.XrLabel26.StylePriority.UseTextAlignment = False
-        XrSummary10.FormatString = "ADT : {0:n2} ตัน"
-        XrSummary10.IgnoreNullValues = True
-        XrSummary10.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
-        Me.XrLabel26.Summary = XrSummary10
+        XrSummary13.FormatString = "ADT : {0:n2} ตัน"
+        XrSummary13.IgnoreNullValues = True
+        XrSummary13.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
+        Me.XrLabel26.Summary = XrSummary13
         Me.XrLabel26.Text = "XrLabel26"
         Me.XrLabel26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel26.TextTrimming = System.Drawing.StringTrimming.Word
@@ -837,8 +923,8 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel27.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrLabel27.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ASIS", "{0:C2}")})
         Me.XrLabel27.Dpi = 100.0!
-        Me.XrLabel27.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel27.LocationFloat = New DevExpress.Utils.PointFloat(546.062!, 3.833313!)
+        Me.XrLabel27.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel27.LocationFloat = New DevExpress.Utils.PointFloat(591.9375!, 3.500002!)
         Me.XrLabel27.Name = "XrLabel27"
         Me.XrLabel27.NullValueText = "0.00"
         Me.XrLabel27.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
@@ -847,10 +933,10 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel27.StylePriority.UseBorders = False
         Me.XrLabel27.StylePriority.UseFont = False
         Me.XrLabel27.StylePriority.UseTextAlignment = False
-        XrSummary11.FormatString = "ASIS : {0:n2} ตัน"
-        XrSummary11.IgnoreNullValues = True
-        XrSummary11.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
-        Me.XrLabel27.Summary = XrSummary11
+        XrSummary14.FormatString = "ASIS : {0:n2} ตัน"
+        XrSummary14.IgnoreNullValues = True
+        XrSummary14.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
+        Me.XrLabel27.Summary = XrSummary14
         Me.XrLabel27.Text = "XrLabel27"
         Me.XrLabel27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel27.TextTrimming = System.Drawing.StringTrimming.Word
@@ -862,8 +948,8 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel28.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrLabel28.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.bale", "{0:C2}")})
         Me.XrLabel28.Dpi = 100.0!
-        Me.XrLabel28.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel28.LocationFloat = New DevExpress.Utils.PointFloat(186.6279!, 0!)
+        Me.XrLabel28.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel28.LocationFloat = New DevExpress.Utils.PointFloat(232.5034!, 3.500002!)
         Me.XrLabel28.Name = "XrLabel28"
         Me.XrLabel28.NullValueText = "0.00"
         Me.XrLabel28.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
@@ -872,114 +958,23 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel28.StylePriority.UseBorders = False
         Me.XrLabel28.StylePriority.UseFont = False
         Me.XrLabel28.StylePriority.UseTextAlignment = False
-        XrSummary12.FormatString = "BALE : {0:n2} มัด"
-        XrSummary12.IgnoreNullValues = True
-        XrSummary12.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
-        Me.XrLabel28.Summary = XrSummary12
+        XrSummary15.FormatString = "BALE : {0:n2} มัด"
+        XrSummary15.IgnoreNullValues = True
+        XrSummary15.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
+        Me.XrLabel28.Summary = XrSummary15
         Me.XrLabel28.Text = "XrLabel28"
         Me.XrLabel28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel28.TextTrimming = System.Drawing.StringTrimming.Word
         Me.XrLabel28.WordWrap = False
         '
-        'XrLabel30
+        'XrLine4
         '
-        Me.XrLabel30.AutoWidth = True
-        Me.XrLabel30.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel30.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.MP AVG", "{0:C2}")})
-        Me.XrLabel30.Dpi = 100.0!
-        Me.XrLabel30.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel30.LocationFloat = New DevExpress.Utils.PointFloat(186.6279!, 23.83331!)
-        Me.XrLabel30.Name = "XrLabel30"
-        Me.XrLabel30.NullValueText = "0.00"
-        Me.XrLabel30.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel30.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
-        Me.XrLabel30.StyleName = "FieldCaption"
-        Me.XrLabel30.StylePriority.UseBorders = False
-        Me.XrLabel30.StylePriority.UseFont = False
-        Me.XrLabel30.StylePriority.UseTextAlignment = False
-        XrSummary13.FormatString = "MP : {0:n2}"
-        XrSummary13.Func = DevExpress.XtraReports.UI.SummaryFunc.Avg
-        XrSummary13.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
-        Me.XrLabel30.Summary = XrSummary13
-        Me.XrLabel30.Text = "XrLabel30"
-        Me.XrLabel30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
-        Me.XrLabel30.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel30.WordWrap = False
-        '
-        'XrLabel31
-        '
-        Me.XrLabel31.AutoWidth = True
-        Me.XrLabel31.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel31.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.OT AVG", "{0:C2}")})
-        Me.XrLabel31.Dpi = 100.0!
-        Me.XrLabel31.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel31.LocationFloat = New DevExpress.Utils.PointFloat(369.4409!, 23.83331!)
-        Me.XrLabel31.Name = "XrLabel31"
-        Me.XrLabel31.NullValueText = "0.00"
-        Me.XrLabel31.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel31.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
-        Me.XrLabel31.StyleName = "FieldCaption"
-        Me.XrLabel31.StylePriority.UseBorders = False
-        Me.XrLabel31.StylePriority.UseFont = False
-        Me.XrLabel31.StylePriority.UseTextAlignment = False
-        XrSummary14.FormatString = "OT: {0:n2}"
-        XrSummary14.Func = DevExpress.XtraReports.UI.SummaryFunc.Avg
-        XrSummary14.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
-        Me.XrLabel31.Summary = XrSummary14
-        Me.XrLabel31.Text = "XrLabel31"
-        Me.XrLabel31.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
-        Me.XrLabel31.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel31.WordWrap = False
-        '
-        'XrLabel32
-        '
-        Me.XrLabel32.AutoWidth = True
-        Me.XrLabel32.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel32.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.PM AVG", "{0:C2}")})
-        Me.XrLabel32.Dpi = 100.0!
-        Me.XrLabel32.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel32.LocationFloat = New DevExpress.Utils.PointFloat(546.0619!, 28.41665!)
-        Me.XrLabel32.Name = "XrLabel32"
-        Me.XrLabel32.NullValueText = "0.00"
-        Me.XrLabel32.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel32.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
-        Me.XrLabel32.StyleName = "FieldCaption"
-        Me.XrLabel32.StylePriority.UseBorders = False
-        Me.XrLabel32.StylePriority.UseFont = False
-        Me.XrLabel32.StylePriority.UseTextAlignment = False
-        XrSummary15.FormatString = "PM : {0:n2}"
-        XrSummary15.Func = DevExpress.XtraReports.UI.SummaryFunc.Avg
-        XrSummary15.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
-        Me.XrLabel32.Summary = XrSummary15
-        Me.XrLabel32.Text = "XrLabel32"
-        Me.XrLabel32.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
-        Me.XrLabel32.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel32.WordWrap = False
-        '
-        'XrLabel34
-        '
-        Me.XrLabel34.AutoWidth = True
-        Me.XrLabel34.BackColor = System.Drawing.Color.LightGray
-        Me.XrLabel34.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
-            Or DevExpress.XtraPrinting.BorderSide.Right) _
-            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel34.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.TRUCK No.")})
-        Me.XrLabel34.Dpi = 100.0!
-        Me.XrLabel34.LocationFloat = New DevExpress.Utils.PointFloat(358.5325!, 2.999989!)
-        Me.XrLabel34.Name = "XrLabel34"
-        Me.XrLabel34.NullValueText = "0"
-        Me.XrLabel34.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel34.SizeF = New System.Drawing.SizeF(114.3425!, 18.0!)
-        Me.XrLabel34.StyleName = "FieldCaption"
-        Me.XrLabel34.StylePriority.UseBackColor = False
-        Me.XrLabel34.StylePriority.UseBorders = False
-        Me.XrLabel34.StylePriority.UseTextAlignment = False
-        XrSummary9.FormatString = "รถ : {0} คัน"
-        XrSummary9.Func = DevExpress.XtraReports.UI.SummaryFunc.Count
-        XrSummary9.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
-        Me.XrLabel34.Summary = XrSummary9
-        Me.XrLabel34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrLabel34.WordWrap = False
+        Me.XrLine4.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.DashDot
+        Me.XrLine4.Dpi = 100.0!
+        Me.XrLine4.LocationFloat = New DevExpress.Utils.PointFloat(0.00002543131!, 53.16661!)
+        Me.XrLine4.Name = "XrLine4"
+        Me.XrLine4.SizeF = New System.Drawing.SizeF(890.0!, 2.000002!)
+        Me.XrLine4.StylePriority.UseBorderDashStyle = False
         '
         'GroupFooterBand3
         '
@@ -988,17 +983,28 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.GroupFooterBand3.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLine5, Me.XrLabel36, Me.XrLabel37, Me.XrLabel38, Me.XrLabel39, Me.XrLabel40, Me.XrLabel41, Me.XrLabel42, Me.XrLabel43, Me.XrLabel44})
         Me.GroupFooterBand3.Dpi = 100.0!
         Me.GroupFooterBand3.HeightF = 52.83335!
-        Me.GroupFooterBand3.Level = 2
+        Me.GroupFooterBand3.Level = 1
         Me.GroupFooterBand3.Name = "GroupFooterBand3"
         Me.GroupFooterBand3.PageBreak = DevExpress.XtraReports.UI.PageBreak.AfterBandExceptLastEntry
         Me.GroupFooterBand3.StylePriority.UseBackColor = False
         Me.GroupFooterBand3.StylePriority.UseBorders = False
         '
+        'XrLine5
+        '
+        Me.XrLine5.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
+        Me.XrLine5.BorderWidth = 1.5!
+        Me.XrLine5.Dpi = 100.0!
+        Me.XrLine5.LocationFloat = New DevExpress.Utils.PointFloat(5.833231!, 46.00002!)
+        Me.XrLine5.Name = "XrLine5"
+        Me.XrLine5.SizeF = New System.Drawing.SizeF(890.0!, 2.000002!)
+        Me.XrLine5.StylePriority.UseBorderDashStyle = False
+        Me.XrLine5.StylePriority.UseBorderWidth = False
+        '
         'XrLabel36
         '
         Me.XrLabel36.AutoWidth = True
         Me.XrLabel36.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel36.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ADT", "{0:C2}")})
+        Me.XrLabel36.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ADT")})
         Me.XrLabel36.Dpi = 100.0!
         Me.XrLabel36.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XrLabel36.LocationFloat = New DevExpress.Utils.PointFloat(369.4409!, 0.000003814697!)
@@ -1011,9 +1017,9 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel36.StylePriority.UseFont = False
         Me.XrLabel36.StylePriority.UseTextAlignment = False
         XrSummary16.FormatString = "ADT : {0:n2} ตัน"
+        XrSummary16.IgnoreNullValues = True
         XrSummary16.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel36.Summary = XrSummary16
-        Me.XrLabel36.Text = "XrLabel36"
         Me.XrLabel36.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel36.WordWrap = False
         '
@@ -1021,7 +1027,7 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.XrLabel37.AutoWidth = True
         Me.XrLabel37.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel37.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ASIS", "{0:C2}")})
+        Me.XrLabel37.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ASIS")})
         Me.XrLabel37.Dpi = 100.0!
         Me.XrLabel37.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XrLabel37.LocationFloat = New DevExpress.Utils.PointFloat(546.0619!, 0.000003814697!)
@@ -1034,9 +1040,9 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel37.StylePriority.UseFont = False
         Me.XrLabel37.StylePriority.UseTextAlignment = False
         XrSummary17.FormatString = "ASIS : {0:n2} ตัน"
+        XrSummary17.IgnoreNullValues = True
         XrSummary17.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel37.Summary = XrSummary17
-        Me.XrLabel37.Text = "XrLabel37"
         Me.XrLabel37.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel37.WordWrap = False
         '
@@ -1044,7 +1050,7 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.XrLabel38.AutoWidth = True
         Me.XrLabel38.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel38.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.bale", "{0:C2}")})
+        Me.XrLabel38.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.bale")})
         Me.XrLabel38.Dpi = 100.0!
         Me.XrLabel38.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XrLabel38.LocationFloat = New DevExpress.Utils.PointFloat(186.6279!, 0.000003814697!)
@@ -1057,9 +1063,9 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel38.StylePriority.UseFont = False
         Me.XrLabel38.StylePriority.UseTextAlignment = False
         XrSummary18.FormatString = "BALE : {0:n2} มัด"
+        XrSummary18.IgnoreNullValues = True
         XrSummary18.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel38.Summary = XrSummary18
-        Me.XrLabel38.Text = "XrLabel38"
         Me.XrLabel38.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel38.WordWrap = False
         '
@@ -1086,7 +1092,7 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.XrLabel40.AutoWidth = True
         Me.XrLabel40.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel40.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.MP AVG", "{0:C2}")})
+        Me.XrLabel40.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.MP AVG")})
         Me.XrLabel40.Dpi = 100.0!
         Me.XrLabel40.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XrLabel40.LocationFloat = New DevExpress.Utils.PointFloat(186.6279!, 20.66671!)
@@ -1098,11 +1104,11 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel40.StylePriority.UseBorders = False
         Me.XrLabel40.StylePriority.UseFont = False
         Me.XrLabel40.StylePriority.UseTextAlignment = False
-        XrSummary19.FormatString = "MP : {0:n2}"
+        XrSummary19.FormatString = "MP : {0:n2} %"
         XrSummary19.Func = DevExpress.XtraReports.UI.SummaryFunc.Avg
+        XrSummary19.IgnoreNullValues = True
         XrSummary19.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel40.Summary = XrSummary19
-        Me.XrLabel40.Text = "XrLabel40"
         Me.XrLabel40.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel40.WordWrap = False
         '
@@ -1110,7 +1116,7 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.XrLabel41.AutoWidth = True
         Me.XrLabel41.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel41.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.OT AVG", "{0:C2}")})
+        Me.XrLabel41.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.OT AVG")})
         Me.XrLabel41.Dpi = 100.0!
         Me.XrLabel41.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XrLabel41.LocationFloat = New DevExpress.Utils.PointFloat(369.4409!, 20.66671!)
@@ -1122,11 +1128,11 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel41.StylePriority.UseBorders = False
         Me.XrLabel41.StylePriority.UseFont = False
         Me.XrLabel41.StylePriority.UseTextAlignment = False
-        XrSummary20.FormatString = "OT: {0:n2}"
+        XrSummary20.FormatString = "WA OT: n2{0} %"
         XrSummary20.Func = DevExpress.XtraReports.UI.SummaryFunc.Avg
+        XrSummary20.IgnoreNullValues = True
         XrSummary20.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel41.Summary = XrSummary20
-        Me.XrLabel41.Text = "XrLabel41"
         Me.XrLabel41.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel41.WordWrap = False
         '
@@ -1134,7 +1140,7 @@ Partial Public Class IVM_MaterialReceive_3996
         '
         Me.XrLabel42.AutoWidth = True
         Me.XrLabel42.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel42.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.PM AVG", "{0:C2}")})
+        Me.XrLabel42.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.PM AVG")})
         Me.XrLabel42.Dpi = 100.0!
         Me.XrLabel42.Font = New System.Drawing.Font("TH Sarabun New", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XrLabel42.LocationFloat = New DevExpress.Utils.PointFloat(546.0619!, 20.66671!)
@@ -1148,9 +1154,9 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel42.StylePriority.UseTextAlignment = False
         XrSummary21.FormatString = "PM : {0:n2}"
         XrSummary21.Func = DevExpress.XtraReports.UI.SummaryFunc.Avg
+        XrSummary21.IgnoreNullValues = True
         XrSummary21.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel42.Summary = XrSummary21
-        Me.XrLabel42.Text = "XrLabel42"
         Me.XrLabel42.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel42.WordWrap = False
         '
@@ -1179,7 +1185,7 @@ Partial Public Class IVM_MaterialReceive_3996
         Me.XrLabel44.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
             Or DevExpress.XtraPrinting.BorderSide.Right) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel44.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.TRUCK No.")})
+        Me.XrLabel44.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.Weighticket")})
         Me.XrLabel44.Dpi = 100.0!
         Me.XrLabel44.LocationFloat = New DevExpress.Utils.PointFloat(691.7086!, 10.0!)
         Me.XrLabel44.Name = "XrLabel44"
@@ -1194,135 +1200,8 @@ Partial Public Class IVM_MaterialReceive_3996
         XrSummary22.Func = DevExpress.XtraReports.UI.SummaryFunc.Count
         XrSummary22.Running = DevExpress.XtraReports.UI.SummaryRunning.Group
         Me.XrLabel44.Summary = XrSummary22
-        Me.XrLabel44.Text = "XrLabel44"
         Me.XrLabel44.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
         Me.XrLabel44.WordWrap = False
-        '
-        'ReportFooterBand1
-        '
-        Me.ReportFooterBand1.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.[Double]
-        Me.ReportFooterBand1.Borders = DevExpress.XtraPrinting.BorderSide.Top
-        Me.ReportFooterBand1.BorderWidth = 1.5!
-        Me.ReportFooterBand1.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel46, Me.XrLabel47, Me.XrLabel48, Me.XrLabel49})
-        Me.ReportFooterBand1.Dpi = 100.0!
-        Me.ReportFooterBand1.HeightF = 18.0!
-        Me.ReportFooterBand1.KeepTogether = True
-        Me.ReportFooterBand1.Name = "ReportFooterBand1"
-        Me.ReportFooterBand1.StylePriority.UseBorderDashStyle = False
-        Me.ReportFooterBand1.StylePriority.UseBorders = False
-        Me.ReportFooterBand1.StylePriority.UseBorderWidth = False
-        '
-        'XrLabel46
-        '
-        Me.XrLabel46.AutoWidth = True
-        Me.XrLabel46.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.XrLabel46.BorderColor = System.Drawing.Color.White
-        Me.XrLabel46.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
-            Or DevExpress.XtraPrinting.BorderSide.Right) _
-            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel46.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ADT", "{0:C2}")})
-        Me.XrLabel46.Dpi = 100.0!
-        Me.XrLabel46.Font = New System.Drawing.Font("TH Sarabun New", 19.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel46.LocationFloat = New DevExpress.Utils.PointFloat(455.0!, 0!)
-        Me.XrLabel46.Name = "XrLabel46"
-        Me.XrLabel46.NullValueText = "0.00"
-        Me.XrLabel46.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel46.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
-        Me.XrLabel46.StyleName = "FieldCaption"
-        Me.XrLabel46.StylePriority.UseBackColor = False
-        Me.XrLabel46.StylePriority.UseBorderColor = False
-        Me.XrLabel46.StylePriority.UseBorders = False
-        Me.XrLabel46.StylePriority.UseFont = False
-        Me.XrLabel46.StylePriority.UseTextAlignment = False
-        XrSummary23.FormatString = "ADT : {0:n2} ตัน"
-        XrSummary23.Running = DevExpress.XtraReports.UI.SummaryRunning.Report
-        Me.XrLabel46.Summary = XrSummary23
-        Me.XrLabel46.Text = "XrLabel46"
-        Me.XrLabel46.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
-        Me.XrLabel46.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel46.WordWrap = False
-        '
-        'XrLabel47
-        '
-        Me.XrLabel47.AutoWidth = True
-        Me.XrLabel47.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.XrLabel47.BorderColor = System.Drawing.Color.White
-        Me.XrLabel47.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
-            Or DevExpress.XtraPrinting.BorderSide.Right) _
-            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel47.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.ASIS", "{0:C2}")})
-        Me.XrLabel47.Dpi = 100.0!
-        Me.XrLabel47.Font = New System.Drawing.Font("TH Sarabun New", 19.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel47.LocationFloat = New DevExpress.Utils.PointFloat(691.7086!, 0!)
-        Me.XrLabel47.Name = "XrLabel47"
-        Me.XrLabel47.NullValueText = "0.00"
-        Me.XrLabel47.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel47.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
-        Me.XrLabel47.StyleName = "FieldCaption"
-        Me.XrLabel47.StylePriority.UseBackColor = False
-        Me.XrLabel47.StylePriority.UseBorderColor = False
-        Me.XrLabel47.StylePriority.UseBorders = False
-        Me.XrLabel47.StylePriority.UseFont = False
-        Me.XrLabel47.StylePriority.UseTextAlignment = False
-        XrSummary24.FormatString = "ASIS : {0:n2} ตัน"
-        XrSummary24.Running = DevExpress.XtraReports.UI.SummaryRunning.Report
-        Me.XrLabel47.Summary = XrSummary24
-        Me.XrLabel47.Text = "XrLabel47"
-        Me.XrLabel47.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
-        Me.XrLabel47.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel47.WordWrap = False
-        '
-        'XrLabel48
-        '
-        Me.XrLabel48.AutoWidth = True
-        Me.XrLabel48.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.XrLabel48.BorderColor = System.Drawing.Color.White
-        Me.XrLabel48.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
-            Or DevExpress.XtraPrinting.BorderSide.Right) _
-            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel48.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.bale", "{0:C2}")})
-        Me.XrLabel48.Dpi = 100.0!
-        Me.XrLabel48.Font = New System.Drawing.Font("TH Sarabun New", 19.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel48.LocationFloat = New DevExpress.Utils.PointFloat(237.4396!, 0!)
-        Me.XrLabel48.Name = "XrLabel48"
-        Me.XrLabel48.NullValueText = "0.00"
-        Me.XrLabel48.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel48.SizeF = New System.Drawing.SizeF(75.55904!, 18.0!)
-        Me.XrLabel48.StyleName = "FieldCaption"
-        Me.XrLabel48.StylePriority.UseBackColor = False
-        Me.XrLabel48.StylePriority.UseBorderColor = False
-        Me.XrLabel48.StylePriority.UseBorders = False
-        Me.XrLabel48.StylePriority.UseFont = False
-        XrSummary25.FormatString = "BALE : {0:n2} มัด"
-        XrSummary25.Running = DevExpress.XtraReports.UI.SummaryRunning.Report
-        Me.XrLabel48.Summary = XrSummary25
-        Me.XrLabel48.Text = "XrLabel48"
-        Me.XrLabel48.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel48.WordWrap = False
-        '
-        'XrLabel49
-        '
-        Me.XrLabel49.AutoWidth = True
-        Me.XrLabel49.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.XrLabel49.BorderColor = System.Drawing.Color.White
-        Me.XrLabel49.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
-            Or DevExpress.XtraPrinting.BorderSide.Right) _
-            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel49.Dpi = 100.0!
-        Me.XrLabel49.Font = New System.Drawing.Font("TH Sarabun New", 19.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel49.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
-        Me.XrLabel49.Name = "XrLabel49"
-        Me.XrLabel49.NullValueText = "0.00"
-        Me.XrLabel49.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel49.SizeF = New System.Drawing.SizeF(106.3291!, 18.0!)
-        Me.XrLabel49.StyleName = "FieldCaption"
-        Me.XrLabel49.StylePriority.UseBackColor = False
-        Me.XrLabel49.StylePriority.UseBorderColor = False
-        Me.XrLabel49.StylePriority.UseBorders = False
-        Me.XrLabel49.StylePriority.UseFont = False
-        Me.XrLabel49.Text = "Grand Total : "
-        Me.XrLabel49.TextTrimming = System.Drawing.StringTrimming.Word
-        Me.XrLabel49.WordWrap = False
         '
         'Title
         '
@@ -1377,96 +1256,105 @@ Partial Public Class IVM_MaterialReceive_3996
         'BottomMarginBand1
         '
         Me.BottomMarginBand1.Dpi = 100.0!
-        Me.BottomMarginBand1.HeightF = 0!
+        Me.BottomMarginBand1.HeightF = 2.333374!
         Me.BottomMarginBand1.Name = "BottomMarginBand1"
         '
-        'XrLine3
+        'FormattingRule1
         '
-        Me.XrLine3.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.DashDot
-        Me.XrLine3.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
-        Me.XrLine3.Dpi = 100.0!
-        Me.XrLine3.LocationFloat = New DevExpress.Utils.PointFloat(0!, 17.0!)
-        Me.XrLine3.Name = "XrLine3"
-        Me.XrLine3.SizeF = New System.Drawing.SizeF(890.0!, 2.000002!)
-        Me.XrLine3.StylePriority.UseBorderDashStyle = False
-        Me.XrLine3.StylePriority.UseBorders = False
+        Me.FormattingRule1.Name = "FormattingRule1"
         '
-        'XrLine4
+        'SumMP
         '
-        Me.XrLine4.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.DashDot
-        Me.XrLine4.Dpi = 100.0!
-        Me.XrLine4.LocationFloat = New DevExpress.Utils.PointFloat(0.00002543131!, 53.16661!)
-        Me.XrLine4.Name = "XrLine4"
-        Me.XrLine4.SizeF = New System.Drawing.SizeF(890.0!, 2.000002!)
-        Me.XrLine4.StylePriority.UseBorderDashStyle = False
+        Me.SumMP.DataMember = "proc_IVM_MaterialReceive_3997"
+        Me.SumMP.Expression = "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] == [^.Material] ].Sum([MP AVG" &
+    "]*[ADT])"
+        Me.SumMP.Name = "SumMP"
         '
-        'XrLine5
+        'CountWT
         '
-        Me.XrLine5.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
-        Me.XrLine5.BorderWidth = 1.5!
-        Me.XrLine5.Dpi = 100.0!
-        Me.XrLine5.LocationFloat = New DevExpress.Utils.PointFloat(5.833231!, 46.00002!)
-        Me.XrLine5.Name = "XrLine5"
-        Me.XrLine5.SizeF = New System.Drawing.SizeF(890.0!, 2.000002!)
-        Me.XrLine5.StylePriority.UseBorderDashStyle = False
-        Me.XrLine5.StylePriority.UseBorderWidth = False
+        Me.CountWT.DataMember = "proc_IVM_MaterialReceive_3997"
+        Me.CountWT.Expression = "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] == [^.Weighticket] ].Count()"
+        Me.CountWT.Name = "CountWT"
         '
-        'XrLabel29
+        'WAMP
         '
-        Me.XrLabel29.AutoWidth = True
-        Me.XrLabel29.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel29.Dpi = 100.0!
-        Me.XrLabel29.Font = New System.Drawing.Font("TH Sarabun New", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel29.LocationFloat = New DevExpress.Utils.PointFloat(5.833231!, 0!)
-        Me.XrLabel29.Name = "XrLabel29"
-        Me.XrLabel29.NullValueText = "0.00"
-        Me.XrLabel29.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel29.SizeF = New System.Drawing.SizeF(76.3291!, 18.0!)
-        Me.XrLabel29.StyleName = "FieldCaption"
-        Me.XrLabel29.StylePriority.UseBorders = False
-        Me.XrLabel29.StylePriority.UseFont = False
-        Me.XrLabel29.StylePriority.UseTextAlignment = False
-        Me.XrLabel29.Text = "รวม (Material)"
-        Me.XrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrLabel29.WordWrap = False
+        Me.WAMP.DataMember = "proc_IVM_MaterialReceive_3997"
+        Me.WAMP.Expression = "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] ==[^.Material]].SUM([MP AVG] " &
+    "* [ASIS])  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "/ " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] == [^.Mater" &
+    "ial] ].Sum([ASIS])"
+        Me.WAMP.Name = "WAMP"
         '
-        'XrLabel33
+        'XrLabel46
         '
-        Me.XrLabel33.AutoWidth = True
-        Me.XrLabel33.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrLabel33.Dpi = 100.0!
-        Me.XrLabel33.Font = New System.Drawing.Font("TH Sarabun New", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.XrLabel33.LocationFloat = New DevExpress.Utils.PointFloat(5.0!, 28.41665!)
-        Me.XrLabel33.Name = "XrLabel33"
-        Me.XrLabel33.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
-        Me.XrLabel33.SizeF = New System.Drawing.SizeF(80.44296!, 17.99998!)
-        Me.XrLabel33.StyleName = "FieldCaption"
-        Me.XrLabel33.StylePriority.UseBorders = False
-        Me.XrLabel33.StylePriority.UseFont = False
-        Me.XrLabel33.StylePriority.UseTextAlignment = False
-        Me.XrLabel33.Text = "ค่าเฉลี่ย (Material)"
-        Me.XrLabel33.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrLabel33.WordWrap = False
+        Me.XrLabel46.AutoWidth = True
+        Me.XrLabel46.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.WAMP", "MP : {0:n2} (%)")})
+        Me.XrLabel46.Dpi = 100.0!
+        Me.XrLabel46.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel46.LocationFloat = New DevExpress.Utils.PointFloat(232.5034!, 27.6333!)
+        Me.XrLabel46.Name = "XrLabel46"
+        Me.XrLabel46.NullValueText = "MP : 0.00 (%)"
+        Me.XrLabel46.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel46.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
+        Me.XrLabel46.StylePriority.UseFont = False
+        Me.XrLabel46.Text = "XrLabel35"
+        Me.XrLabel46.WordWrap = False
         '
-        'XrLine6
+        'WAOT
         '
-        Me.XrLine6.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.DashDotDot
-        Me.XrLine6.BorderWidth = 2.0!
-        Me.XrLine6.Dpi = 100.0!
-        Me.XrLine6.LocationFloat = New DevExpress.Utils.PointFloat(225.6214!, 35.16668!)
-        Me.XrLine6.Name = "XrLine6"
-        Me.XrLine6.SizeF = New System.Drawing.SizeF(368.9611!, 10.90909!)
-        Me.XrLine6.StylePriority.UseBorderDashStyle = False
-        Me.XrLine6.StylePriority.UseBorderWidth = False
+        Me.WAOT.DataMember = "proc_IVM_MaterialReceive_3997"
+        Me.WAOT.Expression = "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] ==[^.Material]].SUM([OT AVG] " &
+    "* [ASIS])  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "/ " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] == [^.Mater" &
+    "ial] ].Sum([ASIS])"
+        Me.WAOT.Name = "WAOT"
+        '
+        'WAPM
+        '
+        Me.WAPM.DataMember = "proc_IVM_MaterialReceive_3997"
+        Me.WAPM.Expression = "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] ==[^.Material]].SUM([PM AVG] " &
+    "* [ASIS])  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "/ " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "[][ [ReceiveDate] == [^.ReceiveDate] AND [Material] == [^.Mater" &
+    "ial] ].Sum([ASIS])"
+        Me.WAPM.Name = "WAPM"
+        '
+        'XrLabel30
+        '
+        Me.XrLabel30.AutoWidth = True
+        Me.XrLabel30.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.WAOT", "OT : {0:n2} (%)")})
+        Me.XrLabel30.Dpi = 100.0!
+        Me.XrLabel30.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel30.LocationFloat = New DevExpress.Utils.PointFloat(415.3164!, 27.6333!)
+        Me.XrLabel30.Name = "XrLabel30"
+        Me.XrLabel30.NullValueText = "OT : 0.00 (%)"
+        Me.XrLabel30.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel30.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
+        Me.XrLabel30.StylePriority.UseFont = False
+        Me.XrLabel30.Text = "XrLabel30"
+        Me.XrLabel30.WordWrap = False
+        '
+        'XrLabel31
+        '
+        Me.XrLabel31.AutoWidth = True
+        Me.XrLabel31.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "proc_IVM_MaterialReceive_3997.WAPM", "PM : {0:n2} (%)")})
+        Me.XrLabel31.Dpi = 100.0!
+        Me.XrLabel31.Font = New System.Drawing.Font("TH Sarabun New", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel31.LocationFloat = New DevExpress.Utils.PointFloat(591.9374!, 27.6333!)
+        Me.XrLabel31.Name = "XrLabel31"
+        Me.XrLabel31.NullValueText = "PM : 0.00 (%)"
+        Me.XrLabel31.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel31.SizeF = New System.Drawing.SizeF(75.55905!, 18.0!)
+        Me.XrLabel31.StylePriority.UseFont = False
+        Me.XrLabel31.Text = "XrLabel31"
+        Me.XrLabel31.WordWrap = False
         '
         'IVM_MaterialReceive_3996
         '
-        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.GroupHeaderBand1, Me.GroupHeaderBand2, Me.GroupHeaderBand3, Me.PageFooterBand1, Me.ReportHeaderBand1, Me.GroupFooterBand2, Me.GroupFooterBand3, Me.ReportFooterBand1, Me.TopMarginBand1, Me.BottomMarginBand1})
+        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.GroupHeaderBand1, Me.GroupHeaderBand2, Me.PageFooterBand1, Me.ReportHeaderBand1, Me.GroupFooterBand2, Me.GroupFooterBand3, Me.TopMarginBand1, Me.BottomMarginBand1})
+        Me.CalculatedFields.AddRange(New DevExpress.XtraReports.UI.CalculatedField() {Me.SumMP, Me.CountWT, Me.WAMP, Me.WAOT, Me.WAPM})
         Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.SqlDataSource1})
         Me.DataMember = "proc_IVM_MaterialReceive_3997"
         Me.DataSource = Me.SqlDataSource1
+        Me.FormattingRuleSheet.AddRange(New DevExpress.XtraReports.UI.FormattingRule() {Me.FormattingRule1})
         Me.Landscape = True
-        Me.Margins = New System.Drawing.Printing.Margins(100, 100, 7, 0)
+        Me.Margins = New System.Drawing.Printing.Margins(100, 100, 7, 2)
         Me.PageHeight = 850
         Me.PageWidth = 1100
         Me.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic
@@ -1493,7 +1381,6 @@ Partial Public Class IVM_MaterialReceive_3996
     Friend WithEvents GroupHeaderBand2 As DevExpress.XtraReports.UI.GroupHeaderBand
     Friend WithEvents XrLabel4 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel3 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents GroupHeaderBand3 As DevExpress.XtraReports.UI.GroupHeaderBand
     Friend WithEvents XrLabel5 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel6 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel7 As DevExpress.XtraReports.UI.XRLabel
@@ -1516,9 +1403,6 @@ Partial Public Class IVM_MaterialReceive_3996
     Friend WithEvents XrLabel26 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel27 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel28 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents XrLabel30 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents XrLabel31 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents XrLabel32 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel34 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents GroupFooterBand3 As DevExpress.XtraReports.UI.GroupFooterBand
     Friend WithEvents XrLabel36 As DevExpress.XtraReports.UI.XRLabel
@@ -1530,11 +1414,6 @@ Partial Public Class IVM_MaterialReceive_3996
     Friend WithEvents XrLabel42 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel43 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel44 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents ReportFooterBand1 As DevExpress.XtraReports.UI.ReportFooterBand
-    Friend WithEvents XrLabel46 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents XrLabel47 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents XrLabel48 As DevExpress.XtraReports.UI.XRLabel
-    Friend WithEvents XrLabel49 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents Title As DevExpress.XtraReports.UI.XRControlStyle
     Friend WithEvents FieldCaption As DevExpress.XtraReports.UI.XRControlStyle
     Friend WithEvents PageInfo As DevExpress.XtraReports.UI.XRControlStyle
@@ -1547,4 +1426,14 @@ Partial Public Class IVM_MaterialReceive_3996
     Friend WithEvents XrLabel29 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel33 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLine6 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents SubBand1 As DevExpress.XtraReports.UI.SubBand
+    Friend WithEvents FormattingRule1 As DevExpress.XtraReports.UI.FormattingRule
+    Friend WithEvents SumMP As DevExpress.XtraReports.UI.CalculatedField
+    Friend WithEvents CountWT As DevExpress.XtraReports.UI.CalculatedField
+    Friend WithEvents WAMP As DevExpress.XtraReports.UI.CalculatedField
+    Friend WithEvents XrLabel46 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents WAOT As DevExpress.XtraReports.UI.CalculatedField
+    Friend WithEvents WAPM As DevExpress.XtraReports.UI.CalculatedField
+    Friend WithEvents XrLabel30 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel31 As DevExpress.XtraReports.UI.XRLabel
 End Class
